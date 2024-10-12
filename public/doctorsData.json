@@ -1,0 +1,2428 @@
+{
+    "chest_pain": [
+        {
+            "id": 1,
+            "name": "Prof. Dr. Uzzwal Kanti Das",
+            "img": "https://i.ibb.co/x1tnWsY/Prof-Dr-Uzzwal-Kanti-Das.jpg",
+            "description": "MBBS, DTCD, FCPS (Medicine), FCCP",
+            "specialist": "Chest Diseases & Respiratory Medicine Specialist",
+            "hospitalName": "BGC Trust Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 2,
+            "name": "Prof. Dr. Mirza Mohammad Hiron",
+            "img": "https://i.ibb.co/RDSHVKq/Prof-Dr-Mirza-Mohammad-Hiron.jpg",
+            "description": "MBBS, FCPS (Medicine),MD(Chest),FCCP(USA),FRCP (Ire),FRCP (Edin),FRCP (Glas)",
+            "specialist": "Chest Diseases & Medicine Specialist",
+            "hospitalName": "National Institute of Diseases of the Chest & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Dr. S. M. Mainul Haque",
+            "img": "https://i.ibb.co/Vj5zfbg/Dr-S-M-Mainul-Haque.jpg",
+            "description": "MBBS, BCS (Health), DTCD, MD (CHEST)",
+            "specialist": "Chest Diseases, Asthma & Respiratory Medicine Specialist",
+            "hospitalName": "Khulna Medical College & Hospital",
+            "district": "Khulna",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Dr. Subrata Kumar Gain",
+            "img": "https://i.ibb.co/ZRrZdfg/Dr-Subrata-Kumar-Gain.jpg",
+            "description": "MBBS (CU), DTCD (DU)",
+            "specialist": "Asthma & Chest Disease Specialist",
+            "hospitalName": "National Institute of Diseases of the Chest & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 5,
+            "name": "Dr. Masum Ahmed",
+            "img": "https://i.ibb.co/7pBxCkF/Dr-Masum-Ahmed.jpg",
+            "description": "MBBS, FCPS (Medicine), MD (Chest Diseases)",
+            "specialist": "Chest Diseases & Medicine Specialist",
+            "hospitalName": "Sher-E-Bangla Medical College & Hospital",
+            "district": "Barishal",
+            "videoCallFee": 800
+        },
+        {
+            "id": 6,
+            "name": "Dr. Mohammad Zannatul Rayhan",
+            "img": "https://i.ibb.co/Jdy1CCK/Dr-Mohammad-Zannatul-Rayhan.jpg",
+            "description": "MBBS, MD (CHEST)",
+            "specialist": "Chest Diseases & Respiratory Medicine Specialist",
+            "hospitalName": "Chest Diseases Hospital, Rajshahi",
+            "district": "Rajshahi",
+            "videoCallFee": 800
+        },
+        {
+            "id": 7,
+            "name": "Dr. Mohammad Zakir Hossain Bhuiyan",
+            "img": "https://i.ibb.co/DVtBHnf/Dr-Mohammad-Zakir-Hossain-Bhuiyan.jpg",
+            "description": "MBBS, BCS (Health), MCPS (Surgery), MS (Chest), FMAS (India)",
+            "specialist": "Chest Diseases Specialist & Esophageal Surgeon",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 8,
+            "name": "Dr. Md. Ferdous Wahid",
+            "img": "https://i.ibb.co/gvVwSyb/Dr-Md-Ferdous-Wahid.jpg",
+            "description": "MBBS, BCS (Health), MCPS (Medicine), MD (Chest Diseases)",
+            "specialist": "Chest Diseases & Medicine Specialist",
+            "hospitalName": "National Institute of Diseases of the Chest & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 9,
+            "name": "Dr. Jannatul Ferdous",
+            "img": "https://i.ibb.co/DKphLFN/Dr-Jannatul-Ferdous.jpg",
+            "description": "MBBS (DMC), FCPS (CHILD)",
+            "specialist": "Newborn, Adolescent & Child Diseases Specialist",
+            "hospitalName": "General Hospital, Pabna",
+            "district": "Pabna",
+            "videoCallFee": 800
+        },
+        {
+            "id": 10,
+            "name": "Dr. Rezaul Haque",
+            "img": "https://i.ibb.co/DYMZPsp/Dr-Rezaul-Haque.jpg",
+            "description": "MBBS, BCS (Health), MD (Chest Diseases), FCCP (USA)",
+            "specialist": "Chest Diseases & Asthma Specialist",
+            "hospitalName": "National Institute of Diseases of the Chest & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        }
+    ],
+    "liver_Doctor": [
+        {
+            "id": 1,
+            "name": "Dr. Forhad Hossain Md. Shahed",
+            "img": "https://i.ibb.co/S77wFW2/Dr-Forhad-Hossain-Md-Shahed.jpg",
+            "description": "MBBS, BCS (Health), MD (Hepatology)",
+            "specialist": "Liver Diseases, Gastroenterology & Medicine Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 2,
+            "name": "Prof. Dr. Md. Shahinul Alam",
+            "img": "https://i.ibb.co/8PR91p5/Prof-Dr-Md-Shahinul-Alam.jpg",
+            "description": "MBBS, FCPS (Medicine), MD (Hepatology)",
+            "specialist": "Liver Diseases, Medicine & Therapeutic Endoscopy Specialist",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Dr. Md. Saiful Islam Parvez",
+            "img": "https://i.ibb.co/NFKvYD8/Dr-Md-Saiful-Islam-Parvez.jpg",
+            "description": "MBBS (DMC), BCS (Health), MD (Heapatology)",
+            "specialist": "Liver Diseases Specialist",
+            "hospitalName": "Mugda Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Dr. Sheikh Mohammad Noor-E-Alam",
+            "img": "https://i.ibb.co/SmwZsk5/Dr-Sheikh-Mohammad-Noor-E-Alam.jpg",
+            "description": "MBBS, MD (Hepatology)",
+            "specialist": "Liver & Pancreatic Diseases Specialist",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 5,
+            "name": "Dr. Mohd. Harun Or Rashid",
+            "img": "https://i.ibb.co/bg7tS1P/Dr-Mohd-Harun-Or-Rashid.jpg",
+            "description": "MBBS, MCPS (Medicine), MD (Hepatology), PhD, FACP (USA)",
+            "specialist": "Liver Diseases & Gastroenterology Specialist",
+            "hospitalName": "Rajshahi Medical College & Hospital",
+            "district": "Rajshahi",
+            "videoCallFee": 800
+        },
+        {
+            "id": 6,
+            "name": "Prof. Dr. Saiyeedur Rahman",
+            "img": "https://i.ibb.co/vmKCCL0/Prof-Dr-Saiyeedur-Rahman.jpg",
+            "description": "MBBS, FCPS (Medicine), MD (Hepatology), FRCP (EDIN), FACP (USA), FWHO (Thailand)",
+            "specialist": "Liver Diseases & Medicine Specialist",
+            "hospitalName": "Sher-E-Bangla Medical College & Hospital",
+            "district": "Mymensingh",
+            "videoCallFee": 800
+        },
+        {
+            "id": 7,
+            "name": "Dr. Shantanu Biswas",
+            "img": "https://i.ibb.co/nQ5KZnS/Dr-Shantanu-Biswas.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Surgery)",
+            "specialist": "Gastrointestinal, Hepatobiliary & Pancreatic Specialist Surgeon",
+            "hospitalName": "Sheikh Russel Gastroliver Institute & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 8,
+            "name": "Dr. Abdullah Al Mahmood",
+            "img": "https://i.ibb.co/PYw8n2Q/Dr-Abdullah-Al-Mahmood.jpg",
+            "description": "MBBS, MD (Hepatology)",
+            "specialist": "Liver Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 9,
+            "name": "Dr. Jhumur Ghosh",
+            "img": "https://i.ibb.co/HhsK6fd/Dr-Jhumur-Ghosh.jpg",
+            "description": "MBBS, MD (Hepatology) First Female Hepatologist in Bangladesh",
+            "specialist": "Liver, Gastroenterology, Medicine Specialist & Interventional Endoscopist",
+            "hospitalName": "Popular Diagnostic Center, English Road",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 10,
+            "name": "Dr. Shawkat Hossain Romel",
+            "img": "https://i.ibb.co/0sWdXw7/Dr-Shawkat-Hossain-Romel.jpg",
+            "description": "MBBS, BCS (Health), MD (Hepatology)",
+            "specialist": "Liver Diseases Specialist",
+            "hospitalName": "Sir Salimullah Medical College & Mitford Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 11,
+            "name": "Dr. A.S.M Sadequl Islam",
+            "img": "https://i.ibb.co/vwPC5FF/Dr-A-S-M-Sadequl-Islam.jpg",
+            "description": "MBBS, CCD, MD (Hepatology), PhD",
+            "specialist": "Liver Diseases Specialist",
+            "hospitalName": "Shaheed Ziaur Rahman Medical College & Hospital",
+            "district": "Jhalokati",
+            "videoCallFee": 800
+        },
+        {
+            "id": 12,
+            "name": "Dr. Md. Fakruzzaman",
+            "img": "https://i.ibb.co/zVncCNR/Dr-Md-Fakruzzaman.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), FCPS (Hepatology)",
+            "specialist": "Liver Diseases & Medicine Specialist",
+            "hospitalName": "Mymensingh Medical College & Hospital",
+            "district": "Mymensingh",
+            "videoCallFee": 800
+        },
+        {
+            "id": 13,
+            "name": "Prof. Dr. Md. Shahidur Rahman",
+            "img": "https://i.ibb.co/Dph2VSs/Dr-Md-Shahidur-Rahman.jpg",
+            "description": "MBBS, FCPS (Surgery), FICS (USA), FISS (USA)",
+            "specialist": "Hepatobiliary, Pancreatic & Liver Transplant Specialist Surgeon",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 14,
+            "name": "Dr. Partho Pratik Roy",
+            "img": "https://i.ibb.co/hDnnbWR/Dr-Partho-Pratik-Roy.jpg",
+            "description": "MBBS, BCS (Health), MD (Hepatology)",
+            "specialist": "Liver Diseases, Gastroenterology Specialist & Endoscopist",
+            "hospitalName": "Shaheed Suhrawardy Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 15,
+            "name": "Prof. Dr. Mamun Al Mahtab Shwapnil",
+            "img": "https://i.ibb.co/mtx2v8t/Prof-Dr-Mamun-Al-Mahtab-Shwapnil.jpg",
+            "description": "MBBS, MSc (Gastro), MD (Hepatology), FACG (USA), FICP (India), FRCP (Ireland), FRCP (UK)",
+            "specialist": "Hepatologist & Gastroenterologist",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 16,
+            "name": "Dr. Sayedul Haque Jewel",
+            "img": "https://i.ibb.co/stVwZ7Y/Dr-Sayedul-Haque-Jewel.jpg",
+            "description": "MBBS, BCS (Health), MD (Hepatology)",
+            "specialist": "Liver Diseases, Gastroenterology & Medicine Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 17,
+            "name": "Dr. Mustafizur Rahman",
+            "img": "https://i.ibb.co/n0MgkhD/Dr-Mustafizur-Rahman.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Surgery), MS (Hepatobiliary & Pancreatic Surgery)",
+            "specialist": "Liver, Gallbladder, Pancreas Specialist & Laparoscopic Surgeon",
+            "hospitalName": "Sheikh Russel Gastroliver Institute & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 18,
+            "name": "Dr. Mohammad Emrul Hasan Khan",
+            "img": "https://i.ibb.co/fQ5Bnff/Dr-Mohammad-Emrul-Hasan-Khan.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Surgery), MS (Hepatobiliary Surgery)",
+            "specialist": "General, Liver, Biliary & Pancreatic Surgeon",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 19,
+            "name": "Dr. Md. Salahuddin Shahed Chowdhury",
+            "img": "https://i.ibb.co/XDS2YRw/Dr-Md-Salahuddin-Shahed-Chowdhury.jpg",
+            "description": "MBBS, BCS (Health), MD (Hepatology)",
+            "specialist": "Liver & Endoscopy Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 20,
+            "name": "Prof. Dr. A.K.M Shamsul Kabir",
+            "img": "https://i.ibb.co/bHC6qnq/Dr-A-K-M-Shamsul-Kabir.jpg",
+            "description": "MBBS (DU), FCPS (Medicine), MD (Hepatology)",
+            "specialist": "Liver Diseases & Medicine Specialist",
+            "hospitalName": "Holy Family Red Crescent Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        }
+    ],
+    "endocrinology": [
+        {
+            "id": 1,
+            "name": "Dr. Sheikh Anwarul Karim",
+            "img": "https://i.ibb.co/KVHmDqX/Dr-Sheikh-Anwarul-Karim.jpg",
+            "description": "MBBS,D-CARD (CC), MD (Endocrinology & Metabolism), FACE (USA",
+            "specialist": "Diabetes, Thyroid, Hormone & Medicine Specialist",
+            "hospitalName": "Chevron Clinical Laboratory Ltd",
+            "district": "Chittagong",
+            "videoCallFee": 600
+        },
+        {
+            "id": 2,
+            "name": "Dr. Satyajit Mallick",
+            "img": "https://i.ibb.co/3vkVBQD/Dr-Satyajit-Mallick.jpg",
+            "description": "MBBS, BCS (Health), MD (Endocrinology & Metabolism), MACE (USA)",
+            "specialist": "Diabetes, Thyroid, Hormone & Medicine Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 600
+        },
+        {
+            "id": 3,
+            "name": "Dr. Anjana Saha",
+            "img": "https://i.ibb.co/f02MK01/Dr-Anjana-Saha.jpg",
+            "description": "MBBS, BCS (Health), MD (Endocrinology)",
+            "specialist": "Diabetes, Thyroid & Hormonal Diseases Specialist",
+            "hospitalName": "National Institute of Cancer Research & Hospital",
+            "district": "Narayanganj",
+            "videoCallFee": 600
+        },
+        {
+            "id": 4,
+            "name": "Dr. Md. Jahangir Alam",
+            "img": "https://i.ibb.co/wr1nmx0/Dr-Md-Jahangir-Alam.jpg",
+            "description": "MBBS, BCS (Health), MD (Endocrinology)",
+            "specialist": "Diabetes, Hormone, Thyroid & Endocrine Medicine Specialist",
+            "hospitalName": "Shaheed Ziaur Rahman Medical College & Hospital",
+            "district": "Jhalokati",
+            "videoCallFee": 600
+        },
+        {
+            "id": 5,
+            "name": "Dr. Habibur Rahman",
+            "img": "https://i.ibb.co/tJx1Ccp/Dr-Habibur-Rahman.jpg",
+            "description": "MBBS (CMC), BCS (Health), MD (Endocrinology), BSMMU",
+            "specialist": "Diabetes, Thyroid & Hormone Specialist",
+            "hospitalName": "Sylhet MAG Osmani Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 600
+        },
+        {
+            "id": 6,
+            "name": "Dr. A.B.M. Kamrul Hasan",
+            "img": "https://i.ibb.co/qDZ33H5/Dr-A-B-M-Kamrul-Hasan.jpg",
+            "description": "MBBS, BCS (Health), MD (Endocrinology), MACE (USA)",
+            "specialist": "Diabetes, Thyroid & Hormone Specialist",
+            "hospitalName": "Mymensingh Medical College & Hospital",
+            "district": "Mymensingh",
+            "videoCallFee": 600
+        },
+        {
+            "id": 7,
+            "name": "Dr. Jobaida Nazneen",
+            "img": "https://i.ibb.co/1scbkNQ/Dr-Jobaida-Naznin.jpg",
+            "description": "MBBS, MD (Endocrinology)",
+            "specialist": "Endocrinology (Hormone, Diabetes & Thyroid) Specialist",
+            "hospitalName": "Shaheed Suhrawardy Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 600
+        },
+        {
+            "id": 8,
+            "name": "Dr. Md. Rafiq Uddin",
+            "img": "https://i.ibb.co/VqHjK3f/Dr-Md-Rafiq-Uddin.jpg",
+            "description": "MBBS, BCS (Health), MD (Endocrinology)",
+            "specialist": "Diabetes, Thyroid & Hormonal Diseases Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 600
+        },
+        {
+            "id": 9,
+            "name": "Dr. Md. Ahamedul Kabir Jhinuk",
+            "img": "https://i.ibb.co/12Mkq5B/Dr-Md-Ahmedul-Kabir-jhinuk.jpg",
+            "description": "MBBS, BCS (Health), MD (Endocrinology), MACE (USA)",
+            "specialist": "Diabetes, Thyroid & Hormone Specialist",
+            "hospitalName": "Shaheed Ziaur Rahman Medical College & Hospital",
+            "district": "Jhalokati",
+            "videoCallFee": 600
+        },
+        {
+            "id": 10,
+            "name": "Dr. Ramen Chandra Basak",
+            "img": "https://i.ibb.co/hgLDttT/Dr-Ramen-Chandra-Basak.jpg",
+            "description": "MBBS, MD (Endocrinology), MRCP (UK), Diploma (Diabetes, UK)",
+            "specialist": "Diabetes, Thyroid & Hormonal Diseases Specialist",
+            "hospitalName": "Asgar Ali Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 600
+        },
+        {
+            "id": 11,
+            "name": "Dr. Prashanta Prasun Dey",
+            "img": "https://i.ibb.co/HYHQJJB/Dr-Prashanta-Prasun-Dey.jpg",
+            "description": "MBBS, MD (Endocrinology)",
+            "specialist": "Thyroid, Diabetics, Hormone & Pancreatic Specialist",
+            "hospitalName": "Kumudini Womens Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 600
+        }
+    ],
+    "neurology": [
+        {
+            "id": 1,
+            "name": "Dr. Prashanta Prasun Dey",
+            "img": "https://i.ibb.co/1mt9wjj/dp-300-1713723402.jpg",
+            "description": "MBBS, BCS(Health) FCPS (MEDICINE) CCD (BIRDEM) MD NEUROLOGY (Course)",
+            "specialist": " Medicine Specialist & Neuro Medicine Experience",
+            "hospitalName": "National Institute of Neurosciences and Hospital (NINS)",
+            "district": "Dhaka",
+            "videoCallFee": 600
+        },
+        {
+            "id": 2,
+            "name": "Asso. Prof. Dr. Sukumar Majumdar",
+            "img": "https://i.ibb.co/0jNhKdc/dp-300-1703319949.png",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MD (Neuromedicine)",
+            "specialist": "Brain, Spine & Neuromedicine Specialist",
+            "hospitalName": "Rangpur Medical College & Hospital",
+            "district": "Rangpur",
+            "videoCallFee": 600
+        },
+        {
+            "id": 3,
+            "name": "Asso. Prof. Dr. Sukumar Majumdar",
+            "img": "https://i.ibb.co/HgbmpPw/dp-300-1705229431.png",
+            "description": "Head,Department of Neurology MBBS,BCS (Health),MD(Neurology)",
+            "specialist": "Brain, Spine & Neuromedicine Specialist",
+            "hospitalName": "Rangpur Medical College & Hospital",
+            "district": "Rangpur",
+            "videoCallFee": 600
+        },
+        {
+            "id": 4,
+            "name": "Dr. Mohammad Najim Uddin",
+            "img": "https://i.ibb.co/F31327z/Dr-Mohammad-Najim-Uddin.jpg",
+            "description": "MBBS (CMC), MCPS (Medicine), MD (Neurology)",
+            "specialist": "Neurology (Brain, Nerve, Stroke, Epilepsy) & Medicine Specialist",
+            "hospitalName": "Evercare Hospital, Chittagong",
+            "district": "Chittagong",
+            "videoCallFee": 600
+        },
+        {
+            "id": 5,
+            "name": "Dr. Md. Azizul Haque",
+            "img": "https://i.ibb.co/TPXh8xc/Dr-Md-Azizul-Haque.jpg",
+            "description": "MBBS, BCS (Health), MCPS (Medicine), FCPS (Medicine), MD (Neuromedicine)",
+            "specialist": "Medicine & Neuromedicine Specialist",
+            "hospitalName": "Shaheed Ziaur Rahman Medical College & Hospital",
+            "district": "Jhalokati",
+            "videoCallFee": 600
+        },
+        {
+            "id": 6,
+            "name": "Dr. Md. Sadekur Rahman Sarkar",
+            "img": "https://i.ibb.co/hcFt5ZY/Dr-Md-Sadekur-Rahman-Sarkar.jpg",
+            "description": "MBBS, BCS (Health), MD (Neurology)",
+            "specialist": "Neurology (Brain, Stroke, Nerve, Spine, Migraine) Specialist",
+            "hospitalName": "National Institute of Neurosciences & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 600
+        },
+        {
+            "id": 7,
+            "name": "Dr. Rahat Amin Chowdhury",
+            "img": "https://i.ibb.co/sgn9VzQ/Dr-Rahat-Amin-Chowdhury.jpg",
+            "description": "MBBS, MD (Neurology)",
+            "specialist": "Neurology (Brain, Nerve, Stroke, Headache) Specialist",
+            "hospitalName": "Sylhet Womens Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 600
+        },
+        {
+            "id": 8,
+            "name": "Dr. M.S. Jahirul Haque Chowdhury",
+            "img": "https://i.ibb.co/w7TRDJt/Dr-M-S-Jahirul-Haque-Chowdhury.jpg",
+            "description": "MBBS, BCS (Health), CCD (BIRDEM), MD (Neuromedicine), MACP (Medicine)",
+            "specialist": "Neuromedicine (Brain, Stroke, Nerve & Medicine) Specialist",
+            "hospitalName": "National Institute of Neurosciences & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 600
+        },
+        {
+            "id": 9,
+            "name": "Dr. Panchanan Das",
+            "img": "https://i.ibb.co/gjxPLz2/Dr-Panchanan-Das.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MD (Neurology)",
+            "specialist": "Brain, Stroke, Nerve, Paralysis, Headache & Medicine Specialist",
+            "hospitalName": "Cumilla Medical College & Hospital",
+            "district": "Comilla",
+            "videoCallFee": 600
+        },
+        {
+            "id": 10,
+            "name": "Dr. Nazmul Hoque Munna",
+            "img": "https://i.ibb.co/ZfrFr0w/Dr-Nazmul-Hoque-Munna.jpg",
+            "description": "MBBS, BCS (Health), MCPS (Medicine), MD (Neurology), MAAN (USA)",
+            "specialist": "Neurology (Brain, Stroke, Headache) & Medicine Special",
+            "hospitalName": "Mugda Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 600
+        }
+    ],
+    "skin_doctor": [
+        {
+            "id": 1,
+            "name": "Dr. Akiq Hossain",
+            "img": "https://i.ibb.co/gMrKb1d/dp-300-1708706286.jpg",
+            "description": "MBBS,MACP(America) PGT(Medicine),CCD(BIRDEM), DOC(Skin & VD),Certificate Course on COPD (icddr,b),CMU(Dhaka) Member of American College of Physicians.",
+            "specialist": "Diabetes Specialist,Experienced in Medicine,Sexual disorders,Skin diseases,Asthma,COPD",
+            "hospitalName": "Dhaka Medical College Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 600
+        },
+        {
+            "id": 2,
+            "name": "Dr Tamanna Ahmed",
+            "img": "https://i.ibb.co/XXPfk60/dp-300-1675492771.png",
+            "description": "MBBS (RMC) MS(Plastic and Reconstructive Surgery) Burn, Plastic, Aesthetic & Breast Surgery Specialist Sheikh Hasina National Institute of Burn and Plastic Surgery, Dhaka",
+            "specialist": "Plastic And Aesthetic Surgery",
+            "hospitalName": "Seikh Hasina National Institute of Burn and Plastic Surgery",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Dr. Emily Akter",
+            "img": "https://i.ibb.co/9HTyrb9/Dr-Emily-Akter.jpg",
+            "description": "MBBS, MD (BSMMU)",
+            "specialist": "Skin, Allergy, Leprosy & Sexual Diseases Specialist",
+            "hospitalName": "Enam Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Dr. Shiropa Islam",
+            "img": "https://i.ibb.co/ZXQ2d93/Dr-Shiropa-Islam.jpg",
+            "description": "MBBS, FCPS (SKIN & VD)",
+            "specialist": "Skin, Allergy, Leprosy, Hair, Nail & Sexual Diseases Specialist",
+            "hospitalName": "Sir Salimullah Medical College & Mitford Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 5,
+            "name": "Dr. Pritish Barua",
+            "img": "https://i.ibb.co/6R5wQPj/Dr-Pritish-Barua.jpg",
+            "description": "MBBS (CU), DGUM (UK), DD (Australia)",
+            "specialist": "Skin, Allergy, Hair, Nail, Sexual Diseases Specialist",
+            "hospitalName": "Lab One Health Services, Chittagong",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 6,
+            "name": "Prof. Dr. Md. Asifuzzaman",
+            "img": "https://i.ibb.co/6R3q3f2/Prof-Dr-Md-Asifuzzaman.jpg",
+            "description": "MBBS (DMC), FCPS (Dermatology)",
+            "specialist": "Skin, Allergy, Leprosy, Hair & Sexual Diseases Specialist",
+            "hospitalName": "Green Life Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 7,
+            "name": "Dr. Anzirun Nahar Asma",
+            "img": "https://i.ibb.co/nrhB0dg/Dr-Anzirun-Nahar-Asma.jpg",
+            "description": "MBBS, DDV, FCPS (Skin & VD)",
+            "specialist": "Skin, Leprosy, Allergy, Nail, Hair & Sexual Diseases Specialist",
+            "hospitalName": "Popular Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 8,
+            "name": "Prof. Dr. Zakir Hossain Galib",
+            "img": "https://i.ibb.co/Kq9dGhx/Dr-Zakir-Hossain-Galib.jpg",
+            "description": "MBBS, MD (Dermatology)",
+            "specialist": "Skin, Allergy, Leprosy, Hair & Sexual Diseases Specialist",
+            "hospitalName": "Sir Salimullah Medical College & Mitford Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 9,
+            "name": "Dr. Saha Bijoy Kumar",
+            "img": "https://i.ibb.co/JCsYJKV/Dr-Saha-Bijoy-Kumar.jpg",
+            "description": "MBBS, MD (SKIN & VD)",
+            "specialist": "Skin, Allergy, Leprosy & Sexual Diseases Specialist",
+            "hospitalName": "Cumilla Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 10,
+            "name": "Dr. Md. Rezaul Alam",
+            "img": "https://i.ibb.co/RvCyRvc/Dr-Md-Rezaul-Alam.jpg",
+            "description": "MBBS, DD (Thailand), MPH (Dhaka), CCL (India), CCD (BIRDEM)",
+            "specialist": "Skin, Allergy & Sexual Diseases Specialist",
+            "hospitalName": "Rangpur Community Medical College & Hospital",
+            "district": "Rangpur",
+            "videoCallFee": 800
+        }
+    ],
+    "sex_doctor": [
+        {
+            "id": 1,
+            "name": "Dr. Tanvir Rahman Shah",
+            "img": "https://i.ibb.co/10X7vYT/dp-300-1690265165.png",
+            "description": "MBBS, MD (Psychiatry)",
+            "specialist": "Specialist in mental, headache, drug addiction and sexual diseases",
+            "hospitalName": "Rangpur Medical College Hospital",
+            "district": "Rangpur",
+            "videoCallFee": 800
+        },
+        {
+            "id": 2,
+            "name": "Dr Md Hamidur Rahman",
+            "img": "https://i.ibb.co/5sQmZyc/dp-300-1671548570.png",
+            "description": "MBBS FCPS, Final Part (Medicine)",
+            "specialist": "Specialist in Kidney, Urinary Bladder, Prostate, Urethra, Testicles, Scrotum, Penis, Skin and Sexual Diseases",
+            "hospitalName": "Dhaka Medical College Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Prof. Dr. Col. Md. Obaidur Rahman Shah",
+            "img": "https://i.ibb.co/rxdHc0n/Prof-Dr-Col-Md-Obaidur-Rahman-Shah.jpg",
+            "description": "MBBS, DDV, FCPS (Skin & Sex), FRCP (UK), Laser Training (USA)",
+            "specialist": "Skin & Sexual Diseases Specialist",
+            "hospitalName": "International Medical College & Hospital, Gazipur",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Prof. Dr. Md. Mominul Haque",
+            "img": "https://i.ibb.co/XFML1J1/Dr-Md-Mominul-Hoque.jpg",
+            "description": "MBBS, DDV, M.Phil (Physiology)",
+            "specialist": "Skin, Allergy, Leprosy & Sexual Diseases Specialist",
+            "hospitalName": "Dinajpur Medical College & Hospital",
+            "district": "Dinajpur",
+            "videoCallFee": 800
+        }
+    ],
+    "psychiatrist": [
+        {
+            "id": 1,
+            "name": "Dr. Tanvir Rahman Shah",
+            "img": "https://i.ibb.co/10X7vYT/dp-300-1690265165.png",
+            "description": "MBBS, MD (Psychiatry)",
+            "specialist": "Specialist in mental, headache, drug addiction and sexual diseases",
+            "hospitalName": "Rangpur Medical College Hospital",
+            "district": "Rangpur",
+            "videoCallFee": 800
+        },
+        {
+            "id": 2,
+            "name": "Dr. Redwana Hossain",
+            "img": "https://i.ibb.co/k85XB6T/dp-300-1687770099.png",
+            "description": "MBBS, BCS (Health), MD (Psychiatry)",
+            "specialist": "Psychiatry, Drug Addiction, Dementia & Female Psychosexual Disorder Specialist",
+            "hospitalName": "Shaheed Suhrawardy Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Dr Md Sarour Jahan",
+            "img": "https://i.ibb.co/tC8RS4N/dp-300-1686329319.png",
+            "description": "MBBS FCPS Trainee (Psychiatry)",
+            "specialist": "Psychiatric illness, Insomnia, Headache, Tension & Addiction Physician",
+            "hospitalName": "Dhaka Medical college Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Dr Muhtarima Amily",
+            "img": "https://i.ibb.co/p4PQXxz/dp-300-1709958172.png",
+            "description": "MBBS FCPS part 2 trainaee(psychiatry) in National Institute of Mental Health",
+            "specialist": "Psychiatrist",
+            "hospitalName": " ",
+            "district": "Barguna",
+            "videoCallFee": 200
+        }
+    ],
+    "medicine_specialist": [
+        {
+            "id": 1,
+            "name": "Dr. Shoyeb",
+            "img": "https://i.ibb.co/KN8cyQy/dp-300-1693231209.jpg",
+            "description": "MBBS,PGT(MEDICINE)CCD(BIRDEM),CMU Indoor Medical Officer",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Rangpur Community Medical College &Hospital",
+            "district": "Rangpur",
+            "videoCallFee": 800
+        },
+        {
+            "id": 2,
+            "name": "Dr. Khondoker Monirul Alam Russel",
+            "img": "https://i.ibb.co/3WJT8yR/dp-300-1675614282.png",
+            "description": "MBBS,BCS FCPS (Medicine)FCPS( Gastroenterology ) thesis Consultant",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Rangpur Medical College Hospital",
+            "district": "Rangpur",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Dr. MD. Mamunur Rashid",
+            "img": "https://i.ibb.co/YyKN7Jf/dp-300-1670507994.png",
+            "description": "MBBS, BCS (Health)",
+            "specialist": "Experienced in Medicine, Liver and Gastroenterology",
+            "hospitalName": " ",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Dr. Md. Mostofa Alam Bony",
+            "img": "https://i.ibb.co/Lxj1rVN/dp-300-1663092675.png",
+            "description": "MBBS,BCS(Health), FCPS (Medicine) Certificate Course on Diabetology (BIRDEM) Consultant (Medicine)",
+            "specialist": "Medicine Specialist & Diabetologist",
+            "hospitalName": "Hypertension and Research Centre, Rangpur",
+            "district": "Rangpur",
+            "videoCallFee": 800
+        },
+        {
+            "id": 5,
+            "name": "Dr. Akiq Hossain",
+            "img": "https://i.ibb.co/gMrKb1d/dp-300-1708706286.jpg",
+            "description": "MBBS,MACP(America) PGT(Medicine),CCD(BIRDEM), DOC(Skin & VD),Certificate Course on COPD (icddr,b),CMU(Dhaka) Member of American College of Physicians.",
+            "specialist": "Diabetes Specialist,Experienced in Medicine,Sexual disorders,Skin diseases,Asthma,COPD",
+            "hospitalName": "Dhaka Medical College Hospita",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 6,
+            "name": "Dr Mehedi Al Masum",
+            "img": "https://i.ibb.co/2hb754Y/dp-300-1680460899.png",
+            "description": "MBBS BCS (Health)",
+            "specialist": "Experienced In Medicine & Cardiac diseases",
+            "hospitalName": " Residents Cardiology NICVD Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 7,
+            "name": "Dr. Sultana Ashrafi Ahmed",
+            "img": "https://i.ibb.co/gDnjL2Z/dp-300-1678885235.png",
+            "description": "Dr. Sultana Ashrafi Ahmed MBBS, BCS (Health) MCPS (Medicine) FCPS (Medicine) MACP (USA) Certified Course on Diabetology (BARDEM) Post Fellowship Training in Kidney",
+            "specialist": "Consultant Medicine",
+            "hospitalName": "Rangpur Medical College Hospital",
+            "district": "Rangpur",
+            "videoCallFee": 800
+        },
+        {
+            "id": 8,
+            "name": "Dr. Abdullah Raiyan",
+            "img": "https://i.ibb.co/CsST201/dp-300-1676391396.png",
+            "description": "MBBS FCPS(Gastroenterology).FP PGT (Medicine) Doctor Of Gastroenterology, BSMMU",
+            "specialist": "Gastroenterology",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 9,
+            "name": "Dr. MD. Toufik Anam Sajib",
+            "img": "https://i.ibb.co/zbXnF2g/dp-300-1674035335.png",
+            "description": "MBBS (SSMC) FCPS-Medicine (FP) MCGP General Physician",
+            "specialist": "Medicine Specialist ",
+            "hospitalName": "Sir Salimullah Medical College, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 10,
+            "name": "Dr. Md Saidur Rahman Himel",
+            "img": "https://i.ibb.co/y63g06v/dp-300-1676221025.png",
+            "description": "MBBS BCS ( Health) MD( Internal Medicine) MACP ( USA)",
+            "specialist": "Medicine Specialist ",
+            "hospitalName": "General Hospital, Munshiganj",
+            "district": "Munshiganj",
+            "videoCallFee": 800
+        },
+        {
+            "id": 11,
+            "name": "Dr. Ramim Islam Ibne Noor",
+            "img": "https://i.ibb.co/vZRBLDt/dp-300-1688188140.png",
+            "description": "MBBS, BCS (Health) MD (Internal Medicine) resident, MMC Registrar, Medicine Department",
+            "specialist": "Medicine Specialist ",
+            "hospitalName": "M Abdur Rahim Medical College Hospital",
+            "district": "Dinajpur",
+            "videoCallFee": 800
+        },
+        {
+            "id": 12,
+            "name": "Prof. Dr. Md. Abul Kalam Azad",
+            "img": "https://i.ibb.co/5s9N7st/Dr-Mohammad-Anwarul-Bari.jpg",
+            "description": "MBBS, FCPS (Medicine)",
+            "specialist": "Medicine, Digestion & Liver Diseases Specialist",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 13,
+            "name": "Prof. Dr. Sheikh Amir Hossain",
+            "img": "https://i.ibb.co/HTKgQgq/Prof-Dr-Sheikh-Amir-Hossain.jpg",
+            "description": "MBBS, FCPS (Medicine), DTCD, MACP, FCCP (USA)",
+            "specialist": "Medicine & Chest Diseases Specialist",
+            "hospitalName": "Khulna Medical College & Hospital",
+            "district": "Khulna",
+            "videoCallFee": 800
+        },
+        {
+            "id": 14,
+            "name": "Dr. S. M. Showkat Ali",
+            "img": "https://i.ibb.co/8XDdths/Dr-S-M-Showkat-Ali.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MCPS (Medicine), MACP (USA), DEM (Endocrinology), MACE (USA)",
+            "specialist": "Medicine, Endocrinology & Diabetes Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 15,
+            "name": "Prof. Dr. Md. Mahbubur Rahman Khan",
+            "img": "https://i.ibb.co/2yvyx9R/Prof-Dr-Md-Mahbubur-Rahman-Khan.jpg",
+            "description": "MBBS, MCPS (Medicine), MD (Internal Medicine)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Rajshahi Medical College & Hospital",
+            "district": "Rajshahi",
+            "videoCallFee": 800
+        },
+        {
+            "id": 16,
+            "name": "Dr. Sheikh Kabir Ahammed",
+            "img": "https://i.ibb.co/jVXhdnc/Dr-Sheikh-Kabir-Ahammed.jpg",
+            "description": "MBBS, BCS (Health), MD (Internal Medicine)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Sylhet MAG Osmani Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 17,
+            "name": "Dr. Shabbir Ahmed",
+            "img": "https://i.ibb.co/6164LXc/Dr-Shabbir-Ahmed.jpg",
+            "description": "MBBS, DTM&H (LONDON), CCD (BIRDEM)",
+            "specialist": "Tropical Medicine Specialist & General Practitioner",
+            "hospitalName": "Jalalabad Ragib-Rabeya Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 18,
+            "name": "Prof. Dr. Md. Motiur Rahman",
+            "img": "https://i.ibb.co/Mcf111t/Prof-Dr-Md-Motiur-Rahman.jpg",
+            "description": "MBBS, FCPS (Medicine)",
+            "specialist": "Medicine, Diabetes & Hormonal Diseases Specialist",
+            "hospitalName": "Islami Bank Medical College & Hospital",
+            "district": "Rajshahi",
+            "videoCallFee": 800
+        },
+        {
+            "id": 19,
+            "name": "Dr. Abul Faisal Md. Nuruddin Chowdhury",
+            "img": "https://i.ibb.co/gTZRg8r/Dr-Abul-Faisal-Md-Nuruddin-Chy.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 20,
+            "name": "Dr. Kazi Mohammad Abrar Hasan",
+            "img": "https://i.ibb.co/SRr3WjX/Dr-Kazi-Mohammad-Abrar-Hasan.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), Training (Hormone, Diabetes & Neuromedicine)",
+            "specialist": "Medicine, Diabetes & Neuromedicine Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 21,
+            "name": "Dr. Mohammad Selim Uddin",
+            "img": "https://i.ibb.co/f29tJrb/Dr-Mohammad-Selim-Uddin.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MCPS, MACP (USA)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Mymensingh Medical College & Hospital",
+            "district": "Mymensingh",
+            "videoCallFee": 800
+        },
+        {
+            "id": 22,
+            "name": "Dr. Mohammad Shayekh Abdullah",
+            "img": "https://i.ibb.co/YbRSXVh/Dr-Mohammad-Shayekh-Abdullah.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Narayanganj",
+            "videoCallFee": 800
+        },
+        {
+            "id": 23,
+            "name": "Dr. Mohammad Mahfuzul Hoque Raihan",
+            "img": "https://i.ibb.co/0X0cT5R/Dr-Mohammad-Mahfuzul-Hoque-Raihan.jpg",
+            "description": "MBBS (DMC), BCS (Health), FCPS (Medicine), FACP (USA)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 24,
+            "name": "Dr. Govinda Karmakar",
+            "img": "https://i.ibb.co/549CTGw/Dr-Govinda-Karmakar.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MACP (USA)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Sylhet MAG Osmani Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 25,
+            "name": "Dr. Mohammad Lokman Hakim",
+            "img": "https://i.ibb.co/71tgrjn/Dr-Mohammad-Lokman-Hakim.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MD (Internal Medicine), MACP (USA), CCD (BIRDEM)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Cumilla Medical Center (Tower Hospital)",
+            "district": "Cumilla",
+            "videoCallFee": 800
+        },
+        {
+            "id": 26,
+            "name": "Prof. Dr. Mohammed Afzal Miah",
+            "img": "https://i.ibb.co/R3JkhVw/Prof-Dr-Mohammed-Afzal-Miah.jpg",
+            "description": "MBBS, DTM&H (London)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "North East Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 27,
+            "name": "Prof. Dr. Mohammad Hasan Tarik",
+            "img": "https://i.ibb.co/ZLBcdr7/Prof-Dr-Mohammad-Hasan-Tarik.jpg",
+            "description": "MBBS, FCPS (Medicine)",
+            "specialist": "Medicine, Diabetes & Chest Diseases Specialist",
+            "hospitalName": "Rajshahi Medical College & Hospital",
+            "district": "Rajshahi",
+            "videoCallFee": 800
+        },
+        {
+            "id": 28,
+            "name": "Dr. Md. Enamul Haque",
+            "img": "https://i.ibb.co/xmr6zCw/Dr-Md-Enamul-Haque.jpg",
+            "description": "MBBS (DMC), FCPS (Medicine), MACP (USA)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Cumilla Medical College & Hospital",
+            "district": "Cumilla",
+            "videoCallFee": 800
+        },
+        {
+            "id": 29,
+            "name": "Dr. Md. Syedul Alam Rajib",
+            "img": "https://i.ibb.co/YLYxQgP/Dr-Md-Syedul-Alam-Rajib.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 30,
+            "name": "Dr. M.K. Zaman",
+            "img": "https://i.ibb.co/23hjpKk/Dr-M-K-Zaman.jpg",
+            "description": "MBBS, FMD (Medicine), CCD (BIRDEM)",
+            "specialist": "Medicine & Diabetes Specialist",
+            "hospitalName": "Sher-E-Bangla Medical College & Hospital",
+            "district": "Barishal",
+            "videoCallFee": 800
+        },
+        {
+            "id": 31,
+            "name": "Dr. ASM Lutful Kabir Shimul",
+            "img": "https://i.ibb.co/sR7MrZY/Dr-ASM-Lutful-Kabir-Shimul.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MACP (USA), MCPS (Medicine)",
+            "specialist": "Medicine & Rheumatology Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 32,
+            "name": "Prof. Dr. Prodyot Kumar Bhattacharyya",
+            "img": "https://i.ibb.co/D8GySH7/Prof-Dr-Prodyot-Kumar-Bhattacharyya.jpg",
+            "description": "MBBS, FCPS (Medicine)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Jalalabad Ragib-Rabeya Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 33,
+            "name": "Prof. Dr. Md. Azizul Haque",
+            "img": "https://i.ibb.co/tzTSYfT/Prof-Dr-Md-Azizul-Haque.jpg",
+            "description": "MBBS (Dhaka), FCPS (Medicine), MACP (USA)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Cumilla Medical College & Hospital",
+            "district": "Cumilla",
+            "videoCallFee": 800
+        },
+        {
+            "id": 34,
+            "name": "Dr. Monisha Mohajan",
+            "img": "https://i.ibb.co/bzdc74V/Dr-Monisha-Mohajan.jpg",
+            "description": "MBBS, FCPS (Internal Medicine)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Chattogram Maa-O-Shishu Hospital Medical College",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 35,
+            "name": "Prof. Dr. Bolai Chandra Sarker",
+            "img": "https://i.ibb.co/6mqkRJ4/Prof-Dr-Bolai-Chondro-Sarker.jpg",
+            "description": "MBBS (DMC), MCPS (Medicine), FCPS (Medicine)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Rajshahi Medical College & Hospital",
+            "district": "Rajshahi",
+            "videoCallFee": 800
+        },
+        {
+            "id": 36,
+            "name": "Dr. Md. Jubaidul Islam",
+            "img": "https://i.ibb.co/b2tfmzY/Dr-Md-Jubaidul-Islam.jpg",
+            "description": "MBBS, CCD (BIRDEM), FCPS (Medicine), MACP (USA)",
+            "specialist": "Medicine & Diabetes Specialist",
+            "hospitalName": "Birdem General Hospital & Ibrahim Medical College",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 37,
+            "name": "Dr. Parijat Biswas",
+            "img": "https://i.ibb.co/0p0Mg7Y/Dr-Parijat-Biswas.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MCPS",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 38,
+            "name": "Prof. Dr. Manabendra Nath Nag",
+            "img": "https://i.ibb.co/z8CzLRY/Prof-Dr-Manabendra-Nath-Nag.jpg",
+            "description": "MBBS (MMC), FCPS (Medicine)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Ad-Din Women's Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 39,
+            "name": "Dr. Arup Kumar Roy",
+            "img": "https://i.ibb.co/TrpgbLR/Dr-Arup-Kumar-Roy.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MACP (USA)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Cumilla Medical College & Hospital",
+            "district": "Cumilla",
+            "videoCallFee": 800
+        },
+        {
+            "id": 40,
+            "name": "Prof. Dr. A.B.M. Saiful Alam",
+            "img": "https://i.ibb.co/BcJ5B8q/Prof-Dr-ABM-Saiful-Alam.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MD (Internal Medicine)",
+            "specialist": "Medicine Specialist",
+            "hospitalName": "Khulna Medical College & Hospital",
+            "district": "Khulna",
+            "videoCallFee": 800
+        }
+    ],
+    "eye_doctor": [
+        {
+            "id": 1,
+            "name": "Dr. Dr. Hafizur Rahman",
+            "img": "https://i.ibb.co/4Jc6Csn/Dr-Md-Hafizur-Rahman.jpg",
+            "description": "MBBS, FCPS (EYE)",
+            "specialist": "Eye Specealist, Phaco & Retina Surgeon",
+            "hospitalName": "Vision Eye Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 2,
+            "name": "Dr. M. A. Raquib",
+            "img": "https://i.ibb.co/2Z6RFhc/Dr-M-A-Raquib.jpg",
+            "description": "MBBS, DCO, FCPS (EYE) Fellow Retina Foundation (India), Retina Training (Singapore)",
+            "specialist": "Eye Specialist & Surgeon",
+            "hospitalName": "Shahjalal Diagnostic Clinic",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Dr. Sarwat Rahman",
+            "img": "https://i.ibb.co/GcF4zbq/Dr-Sarwat-Rahman.jpg",
+            "description": "MBBS, DO (DU) Training in Electro-Physiology & Lasik Surgery (Singapore),SMILE Surgery (India)",
+            "specialist": "Neuro-Ophthalmologist & Phaco Surgeon",
+            "hospitalName": "Bangladesh Eye Hospital, Dhanmondi",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Dr. A.N.M. Yousuf",
+            "img": "https://i.ibb.co/1fJVSTv/Dr-A-N-M-Yousuf.jpg",
+            "description": "MBBS, BCS (Health), FCPS (EYE), MS (EYE)",
+            "specialist": "Eye Specialist & Surgeon",
+            "hospitalName": "Shahid Shamsuddin Ahmed District Hospital, Sylhet",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 5,
+            "name": "Dr. Sheikh Mohammad Murad",
+            "img": "https://i.ibb.co/44p5STf/Dr-Sheikh-Mohammad-Murad.jpg",
+            "description": "MBBS, MCPS (EYE), Training (Phaco Surgery)",
+            "specialist": "Eye Specialist & Phaco Surgeon",
+            "hospitalName": "Lions Charitable Eye Hospital, Chittagong",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 6,
+            "name": "Dr. Md. Jainal Abedin",
+            "img": "https://i.ibb.co/Fw6WQgJ/Dr-Md-Jainal-Abedin.jpg",
+            "description": "MBBS, DO, FCPS (EYE)",
+            "specialist": "Eye Specialist & Phaco Surgeon",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 7,
+            "name": "Dr. Niaz Abdur Rahman",
+            "img": "https://i.ibb.co/g92f8DN/Dr-Niaz-Abdur-Rahman.jpg",
+            "description": "MBBS, DO, MPH (USA), Fellow Vitreo-Retina (Canada)",
+            "specialist": "Eye (Vitreo Retina) Specialist & Surgeon",
+            "hospitalName": "Bangladesh Eye Hospital & Institute",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 8,
+            "name": "Dr. Md. Altaf Uddin Khan",
+            "img": "https://i.ibb.co/pZ8HtH3/Dr-Md-Altaf-Uddin-Khan.jpg",
+            "description": "MBBS, MS (EYE)",
+            "specialist": "Eye Specialist & Surgeon",
+            "hospitalName": "Lions Charitable Eye Hospital, Chittagong",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 9,
+            "name": "Prof. Dr. Md. Hazrat Ali",
+            "img": "https://i.ibb.co/gS33Km6/Prof-Dr-Md-Hazrat-Ali.jpg",
+            "description": "MBBS, ECFMG (USA), FCPS (EYE)",
+            "specialist": "Phaco & Retina Surgeon",
+            "hospitalName": "Birdem General Hospital & Ibrahim Medical College",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 10,
+            "name": "Dr. Shovana Alam",
+            "img": "https://i.ibb.co/W6cxJLq/Dr-Shovana-Alam.jpg",
+            "description": "MBBS, MS (EYE)",
+            "specialist": "Phaco, Squint & Child Eye Specialist",
+            "hospitalName": "Harun Eye Foundation Hospital, Dhanmondi",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 11,
+            "name": "Prof. Dr. Saifuddin Ahmed Pintu",
+            "img": "https://i.ibb.co/RphzS9g/Prof-Dr-Saifuddin-Ahmed-Pintu.jpg",
+            "description": "MBBS, DO, MCPS (EYE), MS (EYE), Fellow Vitreo Retina (India)",
+            "specialist": "Phaco & Vitreo-Retina Specialist Surgeon",
+            "hospitalName": "Sheikh Fazilatunnessa Mujib Eye Hospital & Training Institute",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 12,
+            "name": "Dr. Melia Choudhury",
+            "img": "https://i.ibb.co/W6BgrJj/Dr-Melia-Choudhury.jpg",
+            "description": "MBBS, DO, MS (EYE) Fellow in Oculoplasty & Ocular Oncology (LVPEI)",
+            "specialist": "Phaco, Glaucoma & Extraocular Surgeon",
+            "hospitalName": "Harun Eye Foundation Hospital, Dhanmondi",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 13,
+            "name": "Prof. Dr. Md. Abdul Halim Khan",
+            "img": "https://i.ibb.co/4tx9FdG/Prof-Dr-Md-Abdul-Halim-Khan.jpg",
+            "description": "MBBS, FCPS (EYE), Research Fellow (Austria)",
+            "specialist": "General Ophthalmologist",
+            "hospitalName": "Harun Eye Foundation Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 14,
+            "name": "Dr. Mohammad Afzal Mahfuz Ullah",
+            "img": "https://i.ibb.co/vqw6P4c/Dr-Nimai-Chandra-Karmakar.jpg",
+            "description": "MBBS, MCPS (EYE), FCPS (EYE)",
+            "specialist": "Eye Specialist Phaco, Laser & Retina Surgeon",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 15,
+            "name": "Dr. Sheikh Mahbub Us Sobhan",
+            "img": "https://i.ibb.co/0204TYB/Dr-Sheikh-Mahbub-Us-Sobhan.jpg",
+            "description": "MBBS, DO, MS (EYE), Fellow in Retina-Vitreous (India)",
+            "specialist": "Eye Specialist & Phaco Surgeon",
+            "hospitalName": "Birdem General Hospital & Ibrahim Medical College",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 16,
+            "name": "Dr. Masudul Hasan",
+            "img": "https://i.ibb.co/K6N3JHz/Dr-Masudul-Hasan.jpg",
+            "description": "MBBS, FCPS (EYE), DO (DU), MCPS (EYE)",
+            "specialist": "Eye (Cornea & Interior segment) Specialist & Refractive Surgeon",
+            "hospitalName": "Vision Eye Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 17,
+            "name": "Dr. SB Rasel",
+            "img": "https://i.ibb.co/4pwpZ7K/Dr-SB-Rasel.jpg",
+            "description": "MBBS (DMC), FCPS (EYE)",
+            "specialist": "Eye Diseases (Vitreo-Retina) Specialist & Surgeon",
+            "hospitalName": "Vision Eye Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 18,
+            "name": "Dr. M. A. Wahed",
+            "img": "https://i.ibb.co/xYgcxFX/Dr-M-A-Wahed.jpg",
+            "description": "MBBS, DCO, Fellowship in Glaucoma (LVPEI) India",
+            "specialist": "Ophthalmologist & Glaucoma Specialist",
+            "hospitalName": "Lions Charitable Eye Hospital, Chittagong",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 19,
+            "name": "Dr. Ferdous Akhter Jolly",
+            "img": "https://i.ibb.co/J5Wj0j2/Dr-Ferdous-Akhter-Jolly.jpg",
+            "description": "MBBS, DO, FCPS (EYE)",
+            "specialist": "Retina Specialist & Phaco Surgeon",
+            "hospitalName": "Birdem General Hospital & Ibrahim Medical College",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 20,
+            "name": "Dr. Md. Ali Akbar",
+            "img": "https://i.ibb.co/m97RMD8/Dr-Md-Ali-Akbar.jpg",
+            "description": "MBBS, DO (DU), MCPS (EYE), FCPS (EYE)",
+            "specialist": "Eye Diseases (Glaucoma) Specialist & Phaco Surgeon",
+            "hospitalName": "Bangladesh Eye Hospital & Institute",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 21,
+            "name": "Dr. Nahid Sultana",
+            "img": "https://i.ibb.co/GCVC9nb/Dr-Nahid-Sultana.jpg",
+            "description": "MBBS, DCO, Training (SICS)",
+            "specialist": "Eye Diseases Specialist & Cataract Surgery Specialist",
+            "hospitalName": "Lions Charitable Eye Hospital, Chittagong",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 22,
+            "name": "Dr. Sajedur Rahman",
+            "img": "https://i.ibb.co/Gx0SDyn/Dr-Sajedur-Rahman.jpg",
+            "description": "MBBS, DO, MS (EYE), Fellow in Glaucoma (India)",
+            "specialist": "Phaco & Glaucoma Specialist",
+            "hospitalName": "Birdem General Hospital & Ibrahim Medical College",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 23,
+            "name": "Dr. Md. Asaduzzaman",
+            "img": "https://i.ibb.co/4NwwpQc/Dr-Md-Asaduzzaman-1.jpg",
+            "description": "MBBS, FCPS (EYE)",
+            "specialist": "Cataract & General Ophthalmology Specialist",
+            "hospitalName": "East West Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 24,
+            "name": "Dr. Ezaj Ahmed",
+            "img": "https://i.ibb.co/30jz3xH/Dr-Ezaj-Ahmed.jpg",
+            "description": "MBBS, BCS (Health), DO (DU)",
+            "specialist": "Eye Diseases Specialist & Phaco Surgeon",
+            "hospitalName": "Shaheed Ziaur Rahman Medical College & Hospital",
+            "district": "Jhalokati",
+            "videoCallFee": 800
+        },
+        {
+            "id": 25,
+            "name": "Dr. Md. Bazlul Bari Bhuiyan",
+            "img": "https://i.ibb.co/jv9QX6r/Dr-Md-Bazlul-Bari-Bhuiyan.jpg",
+            "description": "MBBS, DO, FCPS (EYE)",
+            "specialist": "Cataract, Phaco, SICS & Laser Surgeon",
+            "hospitalName": "Holy Family Red Crescent Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 26,
+            "name": "Prof. Dr. Syed Abdul Wadud",
+            "img": "https://i.ibb.co/19F9qp3/Prof-Dr-Syed-Abdul-Wadud.jpg",
+            "description": "MBBS, FCPS (EYE), MS (EYE), Fellowship in Oculoplasty, ICO (UK)",
+            "specialist": "Eye Specialist & Phaco Surgeon",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 27,
+            "name": "Dr. Khair Ahmed Choudhury",
+            "img": "https://i.ibb.co/x5JG5M7/Dr-Khair-Ahmed-Choudhury.jpg",
+            "description": "MBBS, MS (EYE), ICO, FRCS (EDINBURGH) FRCS (GLASGOW)",
+            "specialist": "Eye Specialist & Pediatric Ophthalmologist",
+            "hospitalName": "National Institute of Ophthalmology & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 28,
+            "name": "Prof. Dr. Bebakananda Biswas",
+            "img": "https://i.ibb.co/pJybRd7/Prof-Dr-Bebakananda-Biswas.jpg",
+            "description": "MBBS, FCPS (EYE), DCO (UK)",
+            "specialist": "Eye Diseases Specialist & Phaco Surgeon",
+            "hospitalName": "Bangladesh Eye Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 29,
+            "name": "Dr. Shah-Noor Hassan",
+            "img": "https://i.ibb.co/9bQ9QGt/Dr-Shah-Noor-Hassan.jpg",
+            "description": "MBBS, FCPS (EYE), ICO (UK), FRCS (UK)",
+            "specialist": "Eye Diseases (Vitreo Retina) Specialist & Surgeon",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 30,
+            "name": "Dr. Nizam Jamil Hussain",
+            "img": "https://i.ibb.co/jWWCTSL/Dr-Nizam-Jamil-Hussain.jpg",
+            "description": "MBBS, MS (EYE)",
+            "specialist": "Eye Specialist & Phaco Surgeon",
+            "hospitalName": "North East Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 31,
+            "name": "Prof. Dr. M. Nazrul Islam",
+            "img": "https://i.ibb.co/YdR7G4T/Prof-Dr-M-Nazrul-Islam-1.jpg",
+            "description": "MBBS, DO (DU), MCPS (EYE), FCPS (EYE)",
+            "specialist": "Eye Diseases (Glaucoma) Specialist & Phaco Surgeon",
+            "hospitalName": "Bangladesh Eye Hospital & Institute",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        }
+    ],
+    "cancer_doctor": [
+        {
+            "id": 1,
+            "name": "Dr. Md. Shafiul Azam",
+            "img": "https://i.ibb.co/r41hJfK/Dr-Md-Shafiul-Azam.jpg",
+            "description": "MBBS, MD (Hematology)",
+            "specialist": "Blood Cancer Specialist & Hematologist",
+            "hospitalName": "Shaheed Ziaur Rahman Medical College & Hospital",
+            "district": "Jhalokati",
+            "videoCallFee": 800
+        },
+        {
+            "id": 2,
+            "name": "Dr. Shahida Alam Lima",
+            "img": "https://i.ibb.co/wQzhfCs/Dr-Shahida-Alam-Lima.jpg",
+            "description": "MBBS, FCPS (Radiotherapy)",
+            "specialist": "Cancer Specialist & Radiation Oncologist",
+            "hospitalName": "National Institute of Cancer Research & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Dr. Lubna Mariam",
+            "img": "https://i.ibb.co/QMjZ3BK/Dr-Lubna-Mariam.jpg",
+            "description": "MBBS, FCPS (Radiotherapy), MPhil (Radiotherapy), Fellow (UICC)",
+            "specialist": "Radiation Oncologist",
+            "hospitalName": "National Institute of Cancer Research & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Prof. Dr. Sarwar Alam",
+            "img": "https://i.ibb.co/FwzCJX0/Prof-Dr-Sarwar-Alam-1.jpg",
+            "description": "MBBS. DIH (NIPSOM), MPhil (Radiotherapy)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 5,
+            "name": "Prof. Syed Md. Akram Hussain",
+            "img": "https://i.ibb.co/wB5MDCX/Prof-Dr-Syed-Muhammad-Akram-Hussain.jpg",
+            "description": "MBBS, FCPS, FRCP (GLAS), FRCP (EDIN), FACP (USA), MRCR (UK)",
+            "specialist": "Clinical Oncologist & Radiotherapist",
+            "hospitalName": "Square Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 6,
+            "name": "Dr. A.F.M. Kamal Uddin",
+            "img": "https://i.ibb.co/wp5VrQN/Dr-A-F-M-Kamal-Uddin.jpg",
+            "description": "MBBS, DTCD, MD (Radiotherapy), ICRETT Fellow (SG), IAEA Fellow (USA)",
+            "specialist": "Cancer & Radiation Oncology Specialist",
+            "hospitalName": "United Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 7,
+            "name": "Dr. Ali Asgar Chowdhury",
+            "img": "https://i.ibb.co/jT2Th07/Dr-Ali-Asgar-Chowdhury.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Radiotherapy)",
+            "specialist": "Cancer & Tumor Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 8,
+            "name": "Dr. Abu Khaled Mohammad Iqbal",
+            "img": "https://i.ibb.co/jv3r4yN/Dr-Abu-Khaled-Mohammad-Iqbal.jpg",
+            "description": "MBBS, BCS (Health), MS (Surgical Oncology)",
+            "specialist": "Cancer Surgery Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 9,
+            "name": "Dr. Khorshed Alam Bakul",
+            "img": "https://i.ibb.co/V3dpH4m/Dr-Khorshed-Alam-Bakul.jpg",
+            "description": "MBBS (DMC), BCS (Health), MPhil (Oncology), FCPS (Radiotherapy)",
+            "specialist": "Cancer Specialist & Radiation Oncologist",
+            "hospitalName": "Cumilla Medical College & Hospital",
+            "district": "Cumilla",
+            "videoCallFee": 800
+        },
+        {
+            "id": 10,
+            "name": "Prof. Dr. Md. Mokles Uddin",
+            "img": "https://i.ibb.co/wrKY4tg/Prof-Dr-Md-Mokles-Uddin.jpg",
+            "description": "MBBS, FCPS (Radiotherapy)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "North East Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 11,
+            "name": "Prof. Dr. ATM Atikur Rahman",
+            "img": "https://i.ibb.co/1v8bHQ4/Prof-Dr-ATM-Atikur-Rahman.jpg",
+            "description": "MBBS, FCPS (Pediatrics), MD (Oncology)",
+            "specialist": "Pediatric/Child Diseases, Child Cancer & Blood Cancer Specialist",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 12,
+            "name": "Prof. Dr. Md. Rofiuddin",
+            "img": "https://i.ibb.co/pyzMZZ9/Prof-Dr-Md-Rofiuddin.jpg",
+            "description": "MBBS, MPhil (BSMMU), IAEA Fellowship Training (South Korea)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "Shahabuddin Medical College & Hospital",
+            "district": "Comilla",
+            "videoCallFee": 800
+        },
+        {
+            "id": 13,
+            "name": "Dr. Md. Mehbub Ahsan",
+            "img": "https://i.ibb.co/6rXCwsY/Dr-Md-Mehbub-Ahsan.jpg",
+            "description": "MBBS, BCS (Health), MCPS, FCPS (Oncology)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "Mymensingh Medical College & Hospital",
+            "district": "Mymensingh",
+            "videoCallFee": 800
+        },
+        {
+            "id": 14,
+            "name": "Dr. Ahmed Mizanur Rahman",
+            "img": "https://i.ibb.co/x114Sb7/Dr-Ahmed-Mizanur-Rahman.jpg",
+            "description": "MBBS, FCPS (Surgery), MS ( Surgical Oncology), FAMS (SG)",
+            "specialist": "Cancer & General Surgeon",
+            "hospitalName": "National Institute of Cancer Research & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 15,
+            "name": "Prof. Dr. A.K.M Hamidur Rahman",
+            "img": "https://i.ibb.co/55dnkGj/Prof-Dr-A-K-M-Hamidur-Rahman.jpg",
+            "description": "MBBS, DMRT, Fellow-IAEA (Korea)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "National Institute of Cancer Research & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 16,
+            "name": "Prof. Dr. AFM Anwar Hossain",
+            "img": "https://i.ibb.co/3rSdxt7/Prof-Dr-AFM-Anwar-Hossain.jpg",
+            "description": "MBBS, FCPS (Surgical Oncology)",
+            "specialist": "Cancer Surgeon",
+            "hospitalName": "National Institute of Cancer Research & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 17,
+            "name": "Dr. Mosammat Rubina Sultana",
+            "img": "https://i.ibb.co/f8qNMQC/Dr-Mosammat-Rubina-Sultana.jpg",
+            "description": "MBBS, FCPS (Radiotherapy)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "Ahsania Mission Cancer & General Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 18,
+            "name": "Dr. Md. Arifur Rahman",
+            "img": "https://i.ibb.co/jydVtcB/Dr-Md-Arifur-Rahman.jpg",
+            "description": "MBBS, FCPS (Radiotherapy)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "Bangladesh Specialized Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 19,
+            "name": "Dr. Ashim Kumar Sengupta",
+            "img": "https://i.ibb.co/c1fLzJB/Dr-Ashim-Kumar-Sengupta.jpg",
+            "description": "MBBS, PGT (Internal Medicine), MPhil (Radiotherapy)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "United Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 20,
+            "name": "Dr. Ferdous Shahriar Sayed",
+            "img": "https://i.ibb.co/WBzsQYD/Dr-Ferdous-Shahriar-Sayed.jpg",
+            "description": "MBBS, MD (Radiotherapy)",
+            "specialist": "Cancer, Chemotherapy & Palliative Medicine Specialist",
+            "hospitalName": "Evercare Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 21,
+            "name": "Dr. Md. Ashikur Rahman",
+            "img": "https://i.ibb.co/37fzJTC/Dr-Md-Ashiqur-Rahman.jpg",
+            "description": "MBBS, FCPS (Surgery), MS (Surgical Oncology)",
+            "specialist": "General & Cancer Surgery Specialist",
+            "hospitalName": "National Institute of Cancer Research & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 22,
+            "name": "Dr. Ashim Kumar Ghosh",
+            "img": "https://i.ibb.co/gz01xRJ/Dr-Ashim-Kumar-Ghosh.jpg",
+            "description": "MBBS, MPhil (Radiotherapy)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "Rajshahi Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 23,
+            "name": "Dr. Samina Islam",
+            "img": "https://i.ibb.co/rbNdJ48/Dr-Samina-Islam.jpg",
+            "description": "MBBS, MCPS (Radiotherapy), PGT (Oncology, India)",
+            "specialist": "Cancer & Tumor Specialist",
+            "hospitalName": "Enam Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 24,
+            "name": "Dr. Shuvra Debnath",
+            "img": "https://i.ibb.co/4ZFp2jP/Dr-Shuvra-Debnath.jpg",
+            "description": "MBBS, BCS (Health), MD (Radiation Oncology)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "National Institute of Cancer Research & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 25,
+            "name": "Dr. Md. Mamunur Rashid",
+            "img": "https://i.ibb.co/YLDW99J/Dr-Md-Mamunur-Rashid-1.jpg",
+            "description": "MBBS, MD (Radiation Oncology)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 26,
+            "name": "Dr. Asma Siddiqua",
+            "img": "https://i.ibb.co/B6w9gbV/Dr-Asma-Siddiqua.jpg",
+            "description": "MBBS, MPH (Nutrition), MCPS (Radiotherapy), FCPS (Radiotherapy)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "National Institute of Cancer Research & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 27,
+            "name": "Dr. Tusar Das",
+            "img": "https://i.ibb.co/6ZnKvZ1/Dr-Tusar-Das.jpg",
+            "description": "MBBS, BCS (Health), MD (Oncology)",
+            "specialist": "Cancer Specialist",
+            "hospitalName": "Shaheed Suhrawardy Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 28,
+            "name": "Dr. Sadia Sharmin",
+            "img": "https://i.ibb.co/QP55Yzn/Dr-Sadia-Sharmin.jpg",
+            "description": "MBBS, FCPS (Radiotherapy)",
+            "specialist": "Cancer Specialist & Radiation Oncologist",
+            "hospitalName": "Bangabandhu Sheikh Mujib Medical University Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 29,
+            "name": "Dr. Swadesh Barman",
+            "img": "https://i.ibb.co/gZzsqgj/Dr-Swadesh-Barman.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Medicine), MSc (Oncology)",
+            "specialist": "Medicine & Cancer Specialist",
+            "hospitalName": "Kurmitola General Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 30,
+            "name": "Prof. Dr. S.M. Anisur Rahman",
+            "img": "https://i.ibb.co/z7Y0bg8/Prof-DR-S-M-Anisur-Rahman.jpg",
+            "description": "MBBS, DIH, DMRT, WHO Fellow (Radiation Oncology)",
+            "specialist": "Cancer Specialist & Radiation Oncologist",
+            "hospitalName": "National Institute of Cancer Research & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        }
+    ],
+    "general_surgery": [
+        {
+            "id": 1,
+            "name": "Dr. Afroza-E-Alam",
+            "img": "https://i.ibb.co/ydssSYq/Dr-Afroza-E-Alam.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Surgery)",
+            "specialist": "General, Colorectal & Laparoscopic Surgery Specialist",
+            "hospitalName": "Cumilla Medical College & Hospital",
+            "district": "Cumilla",
+            "videoCallFee": 800
+        },
+        {
+            "id": 2,
+            "name": "Dr. Md. Mustafizur Rahman",
+            "img": "https://i.ibb.co/720SFHf/Dr-Md-Mustafizur-Rahman.jpg",
+            "description": "MBBS, FCPS (Surgery)",
+            "specialist": "General & Laparoscopic Surgeon",
+            "hospitalName": "Sylhet MAG Osmani Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Dr. S.M. Iftekhar Uddin Sagar",
+            "img": "https://i.ibb.co/KLsjGZW/Dr-S-M-Iftekhar-Uddin-Sagar.jpg",
+            "description": "MBBS, BCS (Health), MCPS, FCPS (Surgery), Training (Laparoscopic Surgery)",
+            "specialist": "General & Laparoscopic Specialist Surgeon",
+            "hospitalName": "300 Bed Hospital, Narayanganj",
+            "district": "Narayanganj",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Dr. Bijan Kumar Nath",
+            "img": "https://i.ibb.co/TMB026C/Dr-Bijan-Kumar-Nath.jpg",
+            "description": "MBBS, FCPS (Surgery)",
+            "specialist": "General & Laparoscopic Specialist Surgeon",
+            "hospitalName": "General Hospital, Chittagong",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 5,
+            "name": "Prof. Dr. A. K. Mostaque",
+            "img": "https://i.ibb.co/rQ4Z0Rk/Prof-Dr-A-K-Mostaque.jpg",
+            "description": "MBBS, FCPS (Surgery), MS (Pediatrics Surgery)",
+            "specialist": "Cancer (Breast, Gastrointestinal, Colorectal, Thyroid, Tongue) & Pediatric Surgeon",
+            "hospitalName": "Gonoshasthaya Somajvittik Medical College",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 6,
+            "name": "Dr. Mohammad Ershad Alam",
+            "img": "https://i.ibb.co/V27F7mB/Dr-Mohammad-Ershad-Alam.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Surgery)",
+            "specialist": "General, Colorectal & Laparoscopic Surgery Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 7,
+            "name": "Dr. Md. Tuhin Talukder",
+            "img": "https://i.ibb.co/CQ4Nd5r/Dr-Md-Tuhin-Talukder.jpg",
+            "description": "MBBS, FCPS (Surgery)",
+            "specialist": "General, Laparoscopic, Hepatobiliary & Pancreatic Surgery Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 8,
+            "name": "Prof. Dr. Jamal Ahmed Chowdhury",
+            "img": "https://i.ibb.co/thSj7yP/Prof-Dr-Jamal-Ahmed-Chowdhury.jpg",
+            "description": "MBBS, FCPS (Surgery)",
+            "specialist": "General, Colorectal & Laparoscopic Specialist Surgeon",
+            "hospitalName": "Sylhet Womens Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 9,
+            "name": "Dr. Anharur Rahman",
+            "img": "https://i.ibb.co/FB4brF5/dp-300-1676745136.png",
+            "description": "MBBS, FCPS (Surgery), FMAS (India), Fellow GI Surgery & Liver Transplant (India)",
+            "specialist": "Advance Training in Proctology (Mumbai)",
+            "hospitalName": "General & Laparoscopic Surgeon",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 10,
+            "name": "Dr. Farjana Haque Shumi",
+            "img": "https://i.ibb.co/qg9XLn9/Dr-Farjana-Haque-Shumi.jpg",
+            "description": "MBBS, FCPS (Surgery)",
+            "specialist": "General, Laparoscopic & Breast Specialist Surgeon",
+            "hospitalName": "Uttara Adhunik Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 11,
+            "name": "Dr. Ahmad Maksud Hasan Laskar",
+            "img": "https://i.ibb.co/VQ2CbN5/Dr-Ahmad-Maksud-Hasan-Laskar.jpg",
+            "description": "MBBS, FCPS (Surgery)",
+            "specialist": "General & Laparoscopic Specialist Surgeon",
+            "hospitalName": "Ibn Sina Hospital Sylhet Limited",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 12,
+            "name": "Prof. Dr. A.M.S.M. Sharfuzzaman Rubel",
+            "img": "https://i.ibb.co/cQNck6Y/Prof-Dr-A-M-S-M-Sharfuzzaman-Rubel.jpg",
+            "description": "MBBS, FCPS (Surgery), MRCS (UK)",
+            "specialist": "General & Laparoscopic Surgery Specialist",
+            "hospitalName": "Popular Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 13,
+            "name": "Dr. M. Khaled Mahmud",
+            "img": "https://i.ibb.co/WVFSdyX/Dr-M-Khaled-Mahmud.jpg",
+            "description": "MBBS (Dhaka), FCPS (Surgery)",
+            "specialist": "Surgery Specialist",
+            "hospitalName": "Shahid Shamsuddin Ahmed District Hospital, Sylhet",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 14,
+            "name": "Prof. Dr. Munshi Md. Mujibur Rahman",
+            "img": "https://i.ibb.co/h9KT2Cg/Prof-Dr-Munshi-Md-Mujibur-Rahman.jpg",
+            "description": "MBBS, FCPS (Surgery), MCPS (Surgery), FICS (USA)",
+            "specialist": "General & Cardiac Surgeon",
+            "hospitalName": "Combined Military Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 15,
+            "name": "Prof. Dr. Sarder A. Nayeem",
+            "img": "https://i.ibb.co/d5rzc5g/Prof-Dr-Sarder-A-Nayeem.jpg",
+            "description": "MBBS (DMC), PhD (Tokyo), FACS (USA)",
+            "specialist": "Pioneer Laparoscopic Surgeon",
+            "hospitalName": "Japan Bangladesh Friendship Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 16,
+            "name": "Prof. Dr. Shamima Jahan",
+            "img": "https://i.ibb.co/HtX9ngm/Prof-Dr-Shamima-Jahan.jpg",
+            "description": "MBBS, FCPS (Surgery), Training (Colorectal & Breast Surgery)",
+            "specialist": "General, Laparoscopic, Breast & Colorectal Surgeon",
+            "hospitalName": "Dhaka National Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 17,
+            "name": "Dr. Muntasir Faisel",
+            "img": "https://i.ibb.co/gRXYmpt/Dr-Muntasir-Faisel.jpg",
+            "description": "MBBS, MRCS (UK), FCPS (Surgery), Fellow in Laparoscopic Surgery (India)",
+            "specialist": "General & Laparoscopic Specialist Surgeon",
+            "hospitalName": "Popular Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 18,
+            "name": "Dr. Md. Nazmul Hoque Masum",
+            "img": "https://i.ibb.co/T1rKGrS/Dr-Md-Nazmul-Hoque-Masum.jpg",
+            "description": "MBBS (DMC), FCPS (Surgery), FACS, FICS (USA), Member (ASCRS), Fellow (ISUCRS)",
+            "specialist": "General & Colorectal Surgery Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 19,
+            "name": "Dr. Surjit Ghosh",
+            "img": "https://i.ibb.co/R69M9q1/Dr-Surjit-Ghosh.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Surgery)",
+            "specialist": "General Surgery Specialist",
+            "hospitalName": "Patiya Upazila Health Complex, Chittagong",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 20,
+            "name": "Prof. Dr. P. B. Roy",
+            "img": "https://i.ibb.co/jHLg6Nx/Prof-Dr-P-B-Roy.jpg",
+            "description": "MBBS, FCPS (Surgery), FRCS (UK)",
+            "specialist": "General, Laparoscopic & Colorectal Specialist Surgeon",
+            "hospitalName": "Bangabandhu Memorial Hospital, Chittagong",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 21,
+            "name": "Dr. Ahmod Nasim Hassan (Lavlu)",
+            "img": "https://i.ibb.co/Pj0fFDY/Dr-Ahmod-Nasim-Hassan.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Surgery)",
+            "specialist": "General & Laparoscopic Surgeon",
+            "hospitalName": "Sylhet MAG Osmani Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 22,
+            "name": "Dr. Fouzia Sultana",
+            "img": "https://i.ibb.co/Fs9JjJM/Dr-Fouzia-Sultana.jpg",
+            "description": "MBBS, FCPS (Surgery)",
+            "specialist": "General & Laparoscopic Specialist Surgeon",
+            "hospitalName": "Delta Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 23,
+            "name": "Dr. Sourav Sutar",
+            "img": "https://i.ibb.co/qBPbsFm/Dr-Sourav-Sutar.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Surgery)",
+            "specialist": "General & Laparoscopic Specialist Surgeon",
+            "hospitalName": "Sher-E-Bangla Medical College & Hospital",
+            "district": "Barishal",
+            "videoCallFee": 800
+        },
+        {
+            "id": 24,
+            "name": "Dr. Muhammad Rafiqul Hassan",
+            "img": "https://i.ibb.co/qMZMfSv/Dr-Md-Rafiqul-Hassan.jpg",
+            "description": "MBBS, FCPS (Surgery)",
+            "specialist": "General, Laparoscopic, Hepato-Biliary & Pancreatic Surgeon",
+            "hospitalName": "Birdem General Hospital & Ibrahim Medical College",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 25,
+            "name": "Dr. Md. Aminul Islam",
+            "img": "https://i.ibb.co/qdT8q5x/Dr-Md-Aminul-Islam-1.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Surgery)",
+            "specialist": "General & Laparoscopic Specialist Surgeon",
+            "hospitalName": "Cumilla Medical College & Hospital",
+            "district": "Cumilla",
+            "videoCallFee": 800
+        }
+    ],
+    "plastic_surgery_doctor": [
+        {
+            "id": 1,
+            "name": "Dr. Md. Abdul Mannan",
+            "img": "https://i.ibb.co/YPVBFXP/Dr-Md-Abdul-Mannan.jpg",
+            "description": "MBBS, MCPS (Surgery), FCPS (Surgery), FCPS (Plastic Surgery)",
+            "specialist": "Burn, Trauma, Plastic, Cosmetic, Hand Surgery, Micro Surgery & General Surgery Specialist",
+            "hospitalName": "Sylhet MAG Osmani Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 2,
+            "name": "Dr. Tanveer Ahmed",
+            "img": "https://i.ibb.co/yWP452V/Dr-Tanveer-Ahmed.jpg",
+            "description": "MBBS, FCPS (Plastic Surgery), FACS (USA), CMEd",
+            "specialist": "Plastic, Aesthetic & Oncoplastic Surgeon",
+            "hospitalName": "Sheikh Hasina National Institute of Burn & Plastic Surgery",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Dr. Mohammad Nashir Uddin",
+            "img": "https://i.ibb.co/prxWWrx/Dr-Mohammad-Nashir-Uddin.jpg",
+            "description": "MBBS, FCPS (Surgery), MS (Plastic Surgery), FACS (USA)",
+            "specialist": "Burn, Plastic & Breast Surgery Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Dr. Md. Shariful Islam Sumon",
+            "img": "https://i.ibb.co/k5fg8vD/Dr-Muhammed-Shariful-Islam.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Surgery), MS (Plastic Surgery)",
+            "specialist": "Burn, Plastic, Reconstructive & General Surgeon",
+            "hospitalName": "Sheikh Hasina National Institute of Burn & Plastic Surgery",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 5,
+            "name": "Dr. Mohammad Mustafa Kamal",
+            "img": "https://i.ibb.co/R4r4sm1/Dr-Mohammad-Mustafa-Kamal.jpg",
+            "description": "MBBS (DMC), MRCS (UK), FCPS (Surgery), MS (Plastic Surgery)",
+            "specialist": "Burn, Plastic & General Surgery Specialist",
+            "hospitalName": "Asgar Ali Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 6,
+            "name": "Dr. Zaman Ummay Humayra",
+            "img": "https://i.ibb.co/FhgJrR9/Dr-Zaman-Ummay-Humayra.jpg",
+            "description": "MBBS, FCPS (Plastic Surgery)",
+            "specialist": "Clinical Fellow in Plastic & Reconstructive Surgery (Japan)",
+            "hospitalName": "Plastic & Reconstructive Surgeon",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 7,
+            "name": "Dr. SK Farid Ahmed",
+            "img": "https://i.ibb.co/QF5VX44/Dr-SK-Farid-Ahmed.jpg",
+            "description": "MBBS, FRCS (RCPSG)",
+            "specialist": "Oncoplastic & Reconstructive Breast Surgeon",
+            "hospitalName": "Wycombe General Hospital, Buckinghamshire Healthcare NHS Trust, UK",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 8,
+            "name": "Dr. Sudip Kumar Karmoker",
+            "img": "https://i.ibb.co/GkcJG1s/Dr-Sudip-Kumar-Karmoker.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Plastic Surgery)",
+            "specialist": "Burn & Plastic Surgery Specialist",
+            "hospitalName": "Sheikh Hasina National Institute of Burn & Plastic Surgery",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 9,
+            "name": "Dr. Md. Obaidul Islam Sobuj",
+            "img": "https://i.ibb.co/Zx9yx7h/Dr-Md-Obaidul-Islam-Sobuj.jpg",
+            "description": "MBBS (DMC), FCPS (Surgery), FCPS (Plastic & Reconstructive Surgery)",
+            "specialist": "Plastic, Cosmetic & Reconstructive Surgeon",
+            "hospitalName": "Sheikh Hasina National Institute of Burn & Plastic Surgery",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 10,
+            "name": "Dr. Sharmin Akter Sumi",
+            "img": "https://i.ibb.co/SyM95yZ/Dr-Sharmin-Akter-Sumi.jpg",
+            "description": "MBBS, FCPS (Surgery), MS (Plastic Surgery)",
+            "specialist": "Burn, Plastic, Cosmetic, Breast, Abdominoplasty & Reconstructive Surgeon",
+            "hospitalName": "Sheikh Hasina National Institute Of Burn & Plastic Surgery",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 11,
+            "name": "Prof. Dr. Rayhana Awwal Sumi",
+            "img": "https://i.ibb.co/VxDJM2f/Prof-Dr-Rayhana-Awwal-Sumi.jpg",
+            "description": "MBBS, FCPS (Surgery), FRCS (Edinburgh), MS (Plastic Surgery)",
+            "specialist": "Plastic Surgeon",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 12,
+            "name": "Prof. Dr. Md. Ayub Ali",
+            "img": "https://i.ibb.co/qYcTzcb/Prof-Dr-Md-Ayub-Ali.jpg",
+            "description": "MBBS , FCPS, MS (Plastic Surgery), FACS (USA)",
+            "specialist": "Plastic, Burn & Cosmetic Surgery Specialist",
+            "hospitalName": "Green Life Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 13,
+            "name": "Dr. Md. Kamruzzaman",
+            "img": "https://i.ibb.co/xJQZJLt/Dr-Md-Kamruzzaman.jpg",
+            "description": "MBBS, FCPS (Surgery), FCPS (Plastic Surgery), MRCS (EDIN), MRCS (UK)",
+            "specialist": "Burn, Plastic, Reconstructive & Cosmetic Surgeon",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 14,
+            "name": "Dr. Ahmad Seraji",
+            "img": "https://i.ibb.co/Gk5n0kR/Dr-Ahmad-Seraji.jpg",
+            "description": "MBBS, FCPS (Surgery), MCPS, MS (Surgery), MS (Plastic Surgery), MRCS (UK)",
+            "specialist": "General, Plastic & Reconstructive Surgeon",
+            "hospitalName": "Shaheed Suhrawardy Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 15,
+            "name": "Dr. Mohammed Shahabuddin Khaled",
+            "img": "https://i.ibb.co/r7MJVvK/Dr-Mohammed-Shahabuddin-Khaled.jpg",
+            "description": "MBBS, FCPS (Plastic Surgery)",
+            "specialist": "Burn, Plastic. Cosmetic & Reconstructive Specialist Surgeon",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 16,
+            "name": "Dr. Mirza Mohammad Tyeabul Islam",
+            "img": "https://i.ibb.co/qYrMG4m/Dr-Mirza-Md-Taiyebul-Islam.jpg",
+            "description": "MBBS, FCPS (Plastic Surgery)",
+            "specialist": "Burn, Plastic, Reconstructive & Cosmetic Surgery Specialist",
+            "hospitalName": "Cumilla Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 17,
+            "name": "Dr. Kishore Kumar Das",
+            "img": "https://i.ibb.co/1q5H1Wk/Dr-Kishore-Kumar-Das.jpg",
+            "description": "MBBS (DMC), FCPS (Surgery), MS (Plastic Surgery)",
+            "specialist": "Burn, Plastic & Reconstructive Surgeon",
+            "hospitalName": "Chattogram Maa-O-Shishu Hospital Medical College",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 18,
+            "name": "Dr. Farhana Akhter",
+            "img": "https://i.ibb.co/6ZQyRqX/Dr-Farhana-Akhter.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Plastic Surgery)",
+            "specialist": "Burn, Plastic, Reconstructive, Breast & Cosmetic Surgery Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 19,
+            "name": "Dr. Tahmina Satter",
+            "img": "https://i.ibb.co/mRhPkdL/Dr-Tahmina-Satter.jpg",
+            "description": "MBBS, FCPS (Surgery), MS (Plastic Surgery)",
+            "specialist": "General, Burn, Cosmetic & Plastic Surgery Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 20,
+            "name": "Dr. Md. Hedayet Ali Khan",
+            "img": "https://i.ibb.co/jkDHZvp/Dr-Md-Hedayet-Ali-Khan.jpg",
+            "description": "MBBS, BCS (Health), FCPS (Plastic & Reconstructive Surgery)",
+            "specialist": "Burn, Plastic, Hand, Micro & Cosmetic Surgeon",
+            "hospitalName": "Sheikh Hasina National Institute of Burn & Plastic Surgery",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        }
+    ],
+    "neuro_surgery_doctor": [
+        {
+            "id": 1,
+            "name": "Dr. Md. Arif Reza",
+            "img": "https://i.ibb.co/CPjzSRM/Dr-Md-Arif-Reza.jpg",
+            "description": "MBBS, BCS (Health), MS (Neurosurgery)",
+            "specialist": "Neurosurgery Specialist",
+            "hospitalName": "National Institute of Neurosciences & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 2,
+            "name": "Dr. Gaousul Azam",
+            "img": "https://i.ibb.co/XLYzQqG/Dr-Gaousul-Azam.jpg",
+            "description": "MBBS, BCS (Health), MS (Neurosurgery)",
+            "specialist": "Neurosurgery (Brain, Nerve, Spine & Stroke Surgery) Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 3,
+            "name": "Prof. Dr. Ehsan Mahmood",
+            "img": "https://i.ibb.co/WyLfwBq/Prof-Dr-Ehsan-Mahmood.jpg",
+            "description": "MBBS, PhD (Neurosurgery), FICS (USA)",
+            "specialist": "Neurosurgery Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 4,
+            "name": "Dr. Saumitra Sarker",
+            "img": "https://i.ibb.co/HnjpCQV/Dr-Saumitra-Sarkar.jpg",
+            "description": "MBBS, MRCS (Glasgow), MRCS (England), MS (Neurosurgery), FRCS (Edinburgh)",
+            "specialist": "Neurosurgery (Brain, Spine, Stroke & Spine) Specialist",
+            "hospitalName": "Shaheed Suhrawardy Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 5,
+            "name": "Dr. Md. Rakibul Islam (Rakib)",
+            "img": "https://i.ibb.co/vLYr35S/Dr-Md-Rakibul-Islam.jpg",
+            "description": "MBBS (DMC), MS (Neurosurgery) Fellow Endovascular Neurosurgery & Stroke (Mumbai), Training in Modern Neurosurgery (Japan & Turkey)",
+            "specialist": "Neurosurgery (Brain, Nerve, Spine & Stroke Surgery) Specialist",
+            "hospitalName": "Popular Diagnostic Center, Dhanmondi",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 6,
+            "name": "Dr. Md. Mahmudul Haque Morshed",
+            "img": "https://i.ibb.co/gVHNftd/Dr-Md-Mahmudul-Haque-Morshed.jpg",
+            "description": "MBBS, MS (Neurosurgery) Special Training in Brain Surgery (England, Singapore), Spine Surgery (India, China)",
+            "specialist": "Brain, Nerve & Spine Specialist Surgeon",
+            "hospitalName": "Delta Hospital, Mirpur",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 7,
+            "name": "Dr. Md. Shafiul Alam",
+            "img": "https://i.ibb.co/KmJSKWV/Dr-Md-Shafiul-Alam.jpg",
+            "description": "MBBS, FCPS (Surgery), MS (Neurosurgery), FICS (Neurosurgery)",
+            "specialist": "Brain, Nerve & Spine Specialist Surgeon",
+            "hospitalName": "National Institute of Neurosciences & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 8,
+            "name": "Dr. Md. Anisul Islam Khan",
+            "img": "https://i.ibb.co/Kmk667d/Dr-Md-Anisul-Islam-Khan.jpg",
+            "description": "MBBS, MS (Neurosurgery)",
+            "specialist": "Brain, Nerve, Spine & Neurosurgery Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Chittagong",
+            "videoCallFee": 800
+        },
+        {
+            "id": 9,
+            "name": "Dr. Md. Rashidoon Nabi Khan",
+            "img": "https://i.ibb.co/rQknD7d/dr-md-rashidoon-nabi-khan.jpg",
+            "description": "MBBS, MS (Neuro Surgery)",
+            "specialist": "Neurosurgery (Brain, Nerve, Stroke & Spinal Surgery) Specialist",
+            "hospitalName": "Sylhet MAG Osmani Medical College & Hospital",
+            "district": "Sylhet",
+            "videoCallFee": 800
+        },
+        {
+            "id": 10,
+            "name": "Dr. Md. Mainul Islam Murad",
+            "img": "https://i.ibb.co/yNzvfs3/Dr-Md-Mainul-Islam-Murad.jpg",
+            "description": "MBBS (DMC), MS (Neurosurgery), Special Training in Endovascular (India)",
+            "specialist": "Neurosurgery (Brain & Spine Surgery) Specialist",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 11,
+            "name": "Dr. Md. Sanaullah Shamim",
+            "img": "https://i.ibb.co/M8QvTG6/Dr-Md-Sanaullah-Shamim.jpg",
+            "description": "MBBS, BCS (Health), MS (Neurosurgery), FACS (USA)",
+            "specialist": "Neurosurgery Specialist",
+            "hospitalName": "Chittagong Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 12,
+            "name": "Brig. Gen. Prof. Dr. R U Chowdhury",
+            "img": "https://i.ibb.co/4KRtLST/Dr-R-U-Chowdhury.jpg",
+            "description": "MBBS, FCPS (Surgery), MS (Neurosurgery), MRCS (UK)",
+            "specialist": "Neurosurgery (Brain, Spine, Nerve) Specialist",
+            "hospitalName": "Combined Military Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 13,
+            "name": "Dr. Md. Humayun Rashid",
+            "img": "https://i.ibb.co/1KdsJ7t/Dr-Md-Humayun-Rashid.jpg",
+            "description": "MBBS, MS (Neurosurgery)",
+            "specialist": "Neurosurgery (Brain, Nerve, Spine, Stroke Surgery) Specialist",
+            "hospitalName": "East West Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 14,
+            "name": "Dr. Mahboob-E-Haseeb Shahryar Sabet",
+            "img": "https://i.ibb.co/BNGh87r/Dr-M-H-Shahryer-Sabet.jpg",
+            "description": "MBBS, FCPS (Surgery), MD (USA)",
+            "specialist": "Neurosurgery (Brain, Nerve, Spine Surgery) Specialist",
+            "hospitalName": "Uttara Adhunik Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 15,
+            "name": "Dr. Md. Ismail Hossain",
+            "img": "https://i.ibb.co/Q83wXY5/Dr-Md-Ismail-Hossain.jpg",
+            "description": "MBBS, BCS (Health), MS (Neurosurgery)",
+            "specialist": "Neurosurgery Specialist",
+            "hospitalName": "National Institute of Neurosciences & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 16,
+            "name": "Prof. Dr. Md. Tofael Hossain Bhuiyan",
+            "img": "https://i.ibb.co/ZYS9RMT/Dr-Md-Tofael-Hossain-Bhuiyan.jpg",
+            "description": "MBBS, MS (Neurosurgery)",
+            "specialist": "Brain, Spine & Pediatric Neurosurgery Specialist",
+            "hospitalName": "Rangpur Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 17,
+            "name": "Dr. DM Arman",
+            "img": "https://i.ibb.co/HC70b2f/Dr-DM-Arman.jpg",
+            "description": "MBBS, MS (Neurosurgery)",
+            "specialist": "Neurosurgery (Brain, Stroke, Paralysis & Spine) Specialist & Surgeon",
+            "hospitalName": "National Institute of Neurosciences & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 18,
+            "name": "Prof. Dr. Haradhan Deb Nath",
+            "img": "https://i.ibb.co/XkQWkXB/Prof-Dr-Haradhan-Deb-Nath.jpg",
+            "description": "MBBS, MS (Neurosurgery) Trained in Brain Tumor, Spine Surgery & Pediatric Neurosurgery (India)",
+            "specialist": "Neurosurgery (Brain, Stroke, Spine) Specialist",
+            "hospitalName": "Labaid Specialized Hospital, Dhanmondi",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 19,
+            "name": "Dr. Forhad Hossain Chowdhury",
+            "img": "https://i.ibb.co/rvKXSDz/Dr-Forhad-Hossain-Chowdhury.jpg",
+            "description": "MBBS, FCPS (Surgery), MS (Neurosurgery)",
+            "specialist": "Skullbase, Neurovascular & Endoscopic Neurosurgery Specialist",
+            "hospitalName": "National Institute of Neurosciences & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 20,
+            "name": "Prof. Dr. Dhiman Chowdhury",
+            "img": "https://i.ibb.co/xjBjYQp/Prof-Dr-Dhiman-Chowdhury.jpg",
+            "description": "MBBS, MS (Neurosurgery), FIMS (India) Diploma in Lateral Skull Base & Post Doctoral Fellowship, Skull Base & Vascular Neurosurgery (India)",
+            "specialist": "Brain, Spine Specialist & Neurosurgeon",
+            "hospitalName": "Green Life Hospital, Dhaka",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 21,
+            "name": "Dr. Md. Rashidul Hasan",
+            "img": "https://i.ibb.co/BqjPsC7/Dr-Md-Rashidul-Hasan.jpg",
+            "description": "MBBS, BCS (Health), MS (Neurosurgery), BSMMU",
+            "specialist": "Neurosurgery (Brain, Stroke, Paralysis & Spine) Specialist & Surgeon",
+            "hospitalName": "Dhaka Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 22,
+            "name": "Dr. Kamalesh Saha",
+            "img": "https://i.ibb.co/BnMdkMJ/Dr-Kamalesh-Saha.jpg",
+            "description": "MBBS, BCS (Health), MS (Neurosurgery)",
+            "specialist": "Neurosurgery (Brain, Nerve, Spine) Specialist Surgeon",
+            "hospitalName": "Khulna Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 23,
+            "name": "Dr. Md. Zahid Raihan",
+            "img": "https://i.ibb.co/7VYJxrg/Dr-Md-Zahid-Raihan.jpg",
+            "description": "MBBS, BCS (Health), MS (Neurosurgery)",
+            "specialist": "Brain, Nerve, Stroke, Paralysis, Parkinson Specialist & Surgeon",
+            "hospitalName": "Kushtia Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 24,
+            "name": "Dr. Sudipta Kumer Mukherjee",
+            "img": "https://i.ibb.co/XJFQxmN/Dr-Sudipta-Kumer-Mukherjee.jpg",
+            "description": "MBBS, MS (Neurosurgery)",
+            "specialist": "Neurosurgery (Brain, Stroke, Spine) Specialist & Pediatric Neurosurgeon",
+            "hospitalName": "National Institute of Neurosciences & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        },
+        {
+            "id": 25,
+            "name": "Dr. Sushanta Kumar Sarkar",
+            "img": "https://i.ibb.co/PNvKynj/Dr-Sushanta-Kumar-Sarkar.jpg",
+            "description": "MBBS, MS (Neurosurgery)",
+            "specialist": "Neurosurgery (Brain, Nerve, Spine, Stroke Surgery) Specialist",
+            "hospitalName": "Shaheed Ziaur Rahman Medical College & Hospital",
+            "district": "Dhaka",
+            "videoCallFee": 800
+        }
+    ]
+}
