@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import logo from '../../../assets/logo/logo1.svg';
-import { AnimatePresence, motion } from "framer-motion"
+import { motion } from "framer-motion"
 import { Button } from '@/components/ui/button';
 import {  useContext, useState } from 'react';
 import { AuthContext } from '@/context/AuthProvider/AuthProvider';
@@ -8,8 +8,8 @@ import { getAuth, signOut } from 'firebase/auth';
 import app from '@/firebase/firebase.config';
 import { Link } from 'react-router-dom';
 import { Input } from '@/components/ui/input';
-import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
+import { Avatar } from '@/components/ui/avatar';
 
 
 
@@ -24,10 +24,7 @@ const Navbar = () => {
     };
     
   
-
-    
-  
-  const handleSignOut = () => {
+const handleSignOut = () => {
     signOut(auth)
       .then(() => {
         
@@ -105,7 +102,7 @@ const Navbar = () => {
 
 
         {/* Search Input and Avatar */}
-        <div className='flex justify-between items-center gap-5 mr-26'>
+        <div className='flex justify-between items-center gap-10 mr-10'>
             <Input type="email" placeholder="type medicine or generic" className='input input-bordered w-36 h-12 md:w-auto bg-white' />
 
             {/* Avatar and Dropdown Menu */}
@@ -117,7 +114,12 @@ const Navbar = () => {
                                 className="rounded-full"
                                 src={user?.photoURL}
                                 alt={user?.email || "User Avatar"}
-                            />
+                                />
+                            {
+                                // condition ? it (or:) it
+                                user?.email ? <img alt="user photo" src={user?.photoURL}></img> : 
+                                <span className="loading loading-ring loading-lg"></span>
+                            }
                         </motion.div>
                     </DropdownMenuTrigger>
 
@@ -127,7 +129,12 @@ const Navbar = () => {
                         <DropdownMenuGroup>
                             <DropdownMenuItem onClick={() => console.log("Profile clicked")}>Profile</DropdownMenuItem>
                             <DropdownMenuItem onClick={() => console.log("Settings clicked")}>Settings</DropdownMenuItem>
-                            <DropdownMenuItem onClick={() => console.log("Logout clicked")}>Log out</DropdownMenuItem>
+                                <DropdownMenuItem onClick={() => console.log("Logout clicked")}>
+                                {
+                                    user?.email ? <Link to='/' onClick={handleSignOut}>Sign Out</Link> :
+                                    <Link to='/login'>Sign In</Link>                
+                                }
+                            </DropdownMenuItem>
                         </DropdownMenuGroup>
                     </DropdownMenuContent>
                 </DropdownMenu>
