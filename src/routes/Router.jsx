@@ -1,5 +1,8 @@
 import Main from "@/LayOut/Main";
+import ComparePrice from "@/pages/ComparePrice/ComparePrice";
 import Home from "@/pages/Home/Home/Home";
+import Register from "@/pages/Home/Register/Register";
+import Login from "@/pages/login/Login";
 import { createBrowserRouter } from "react-router-dom";
 // import ComparePrice from "@/Pages/ComparePrice/ComparePrice";
 // import CancerDoctor from "@/Pages/Consultant/CancerDoctor";
@@ -40,23 +43,23 @@ export const router = createBrowserRouter([
                 path: '/',
                 element: <Home></Home>
             },
-//             {
-//                 path: 'compare-price',
-//                 element: <ComparePrice></ComparePrice>
-//             },
+            {
+                path: 'compare-price',
+                element: <ComparePrice></ComparePrice>
+            },
 //             {
 //                 path: 'consultant',
 //                 element: <Consultant></Consultant>
 //             },
-//             {
-//                 path: 'login',
-//                 element: <Login></Login>
-//             },
-//             {
-//                 path: 'register',
-//                 element: <Register></Register>
-//             }
-//       ]
+            {
+                path: 'login',
+                element: <Login></Login>
+            },
+            {
+                path: 'register',
+                element: <Register></Register>
+            }
+      // ]
 //   },
 //   {
 //     path: '/aside',
