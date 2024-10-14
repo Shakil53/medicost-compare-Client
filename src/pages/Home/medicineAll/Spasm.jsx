@@ -1,6 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
 import SpasmComponent from './categoryComponent/SpasmComponent';
-import { Key } from 'react';
 
 const Spasm = () => {
 

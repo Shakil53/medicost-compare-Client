@@ -1,7 +1,7 @@
 
 import { useQuery } from '@tanstack/react-query';
 import DiarrheaComponent from './categoryComponent/DiarrheaComponent';
-import { Key } from 'react';
+
 
 const Diarrhea = () => {
     const getDiarrheaItem = async () => {

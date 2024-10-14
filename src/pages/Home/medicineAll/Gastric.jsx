@@ -1,7 +1,7 @@
 
 import { useQuery } from "@tanstack/react-query";
 import GasticComponent from './categoryComponent/GasticComponent';
-import { Key } from "react";
+
 
 const Gastric = () => {
 

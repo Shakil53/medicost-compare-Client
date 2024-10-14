@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import UlcerComponent from './categoryComponent/UlcerComponent';
-import { Key } from 'react';
+
 
 const Ulcer = () => {
     const getUlcer = async() => {

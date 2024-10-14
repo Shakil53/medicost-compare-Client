@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 import GynecologicalComponent from './categoryComponent/GynecologicalComponent';
-import { Key } from 'react';
+
 
 const Gynecological = () => {
     const getGynecological = async() => {

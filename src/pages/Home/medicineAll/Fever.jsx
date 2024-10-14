@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 import FeverComponent from './categoryComponent/FeverComponent';
-import { Key } from 'react';
+
 
 const Fever = () => {
 

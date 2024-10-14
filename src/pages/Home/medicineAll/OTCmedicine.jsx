@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import OTCmedicineComponent from "./categoryComponent/OTCmedicineComponent";
-import { Key } from "react";
+
 
 
 const OTCmedicine = () => {

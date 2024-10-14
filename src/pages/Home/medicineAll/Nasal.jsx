@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 import NasalComponent from './categoryComponent/NasalComponent';
-import { Key } from 'react';
+
 
 const Nasal = () => {
 

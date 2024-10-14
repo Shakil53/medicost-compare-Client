@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 import ZincDeficiencyComponent from './categoryComponent/ZincDeficiencyComponent';
-import { Key } from 'react';
+
 
 const ZincDeficiency = () => {
 

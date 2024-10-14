@@ -1,7 +1,7 @@
 
 import { useQuery } from "@tanstack/react-query";
 import EczemaComponent from './categoryComponent/EczemaComponent';
-import { Key } from "react";
+
 
 
 

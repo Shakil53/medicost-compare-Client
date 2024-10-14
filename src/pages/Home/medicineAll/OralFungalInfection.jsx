@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import OralFungalInfectionComponent from './categoryComponent/OralFungalInfectionComponent';
-import { Key } from 'react';
+
 
 const OralFungalInfection = () => {
     const getOralFungalInfection = async() => {

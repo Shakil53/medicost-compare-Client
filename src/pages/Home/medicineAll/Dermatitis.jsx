@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 import DermatitisComponent from './categoryComponent/DermatitisComponent';
-import { Key } from 'react';
+
 
 const Dermatitis = () => {
     const getDermatitis = async() => {
