@@ -7,6 +7,7 @@ import Neurology from "@/pages/Consultant/Neurology";
 import Ophthalmologist from "@/pages/Consultant/Ophthalmologist";
 import AsideNav from "@/pages/Home/Aside/AsideNav";
 import Home from "@/pages/Home/Home/Home";
+import IntroductionSection from "@/pages/Home/Home/IntroductionSection";
 import Constipation from "@/pages/Home/medicineAll/Constipation";
 import CoughFlu from "@/pages/Home/medicineAll/CoughFlu";
 import Dermatitis from "@/pages/Home/medicineAll/Dermatitis";
@@ -62,7 +63,13 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home></Home>
+                element: <Home></Home>,
+                children: [
+                    {
+                        path: '/',
+                        element: <IntroductionSection></IntroductionSection>
+                    }
+                ]
             },
             {
                 path: 'compare-price',

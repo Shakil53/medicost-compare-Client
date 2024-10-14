@@ -5,6 +5,7 @@ import Carousel from "../Home/Carousel";
 
 
 
+
 const AsideNav = () => {
     return (
         <>
@@ -14,8 +15,9 @@ const AsideNav = () => {
                 <Sidebar></Sidebar>
                 
                 <div className='col-span-10 h-screen overflow-y-auto'>
-                    <Outlet></Outlet>
                     <Carousel></Carousel>
+                    
+                    <Outlet></Outlet>
                 </div>
 
           </div>
