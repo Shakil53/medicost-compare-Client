@@ -14,12 +14,14 @@ import drug12 from '../../../assets/logo/8-1655900673941.webp';
 import drug13 from '../../../assets/logo/osud9-1655900346955.webp';
 import drug14 from '../../../assets/logo/gynecological-1655965658095.webp';
 import { FaAngleRight } from "react-icons/fa";
+import { ScrollArea } from '@/components/ui/scroll-area';
 
 
 
 const Sidebar = () => {
     return (
-        <aside className='bg-teal-200 col-span-2 h-screen sticky left-0 top-0 overflow-auto p-4 lg:p-5 '>
+        <aside className='sticky bg-teal-200 col-span-2 h-screen  left-0 top-0 overflow-auto p-4 lg:p-5 '>
+            <ScrollArea className="h-full">
             <h1 className='text-xl font-medium truncate'>Category of Medicine</h1>
             <nav className='flex flex-col gap-2 mt-5'>
                 <NavLink to="/aside/otc-medicine" className='p-3 bg-gray rounded-md hover:bg-teal-500 hover:text-white transition-all flex items-center gap-2'>
@@ -97,7 +99,9 @@ const Sidebar = () => {
                     <span className='truncate font-semibold'>Gynecological</span>
                     <span className='shrink-0 text-sm'><FaAngleRight></FaAngleRight></span>
                 </NavLink>
-            </nav>
+                </nav>
+                    
+             </ScrollArea>
             </aside>
     );
 };

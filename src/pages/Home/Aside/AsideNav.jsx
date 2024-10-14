@@ -1,6 +1,8 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import Navbar from "../Header/Navbar";
+import Carousel from "../Home/Carousel";
+
 
 
 const AsideNav = () => {
@@ -8,9 +10,12 @@ const AsideNav = () => {
         <>
        <Navbar></Navbar>
         <div className='grid grid-cols-12'>
-            <Sidebar></Sidebar>
-                <div className='col-span-10 h-[200vh]'>
+                
+                <Sidebar></Sidebar>
+                
+                <div className='col-span-10 h-screen overflow-y-auto'>
                     <Outlet></Outlet>
+                    <Carousel></Carousel>
                 </div>
 
           </div>
