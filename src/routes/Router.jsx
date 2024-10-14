@@ -1,5 +1,10 @@
 import Main from "@/LayOut/Main";
 import ComparePrice from "@/pages/ComparePrice/ComparePrice";
+import CancerDoctor from "@/pages/Consultant/CancerDoctor";
+import Consultation from "@/pages/Consultant/Consultation";
+import MedicineSpecialist from "@/pages/Consultant/MedicineSpecialist";
+import Neurology from "@/pages/Consultant/Neurology";
+import Ophthalmologist from "@/pages/Consultant/Ophthalmologist";
 import Home from "@/pages/Home/Home/Home";
 import Register from "@/pages/Home/Register/Register";
 import Login from "@/pages/login/Login";
@@ -36,7 +41,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
     {
-      path: "/",
+        path: "/",
         element: <Main></Main>,
         children: [
             {
@@ -47,10 +52,10 @@ export const router = createBrowserRouter([
                 path: 'compare-price',
                 element: <ComparePrice></ComparePrice>
             },
-//             {
-//                 path: 'consultant',
-//                 element: <Consultant></Consultant>
-//             },
+            {
+                path: 'consultant',
+                element: <Consultation></Consultation>
+            },
             {
                 path: 'login',
                 element: <Login></Login>
@@ -59,97 +64,98 @@ export const router = createBrowserRouter([
                 path: 'register',
                 element: <Register></Register>
             }
-      // ]
-//   },
-//   {
-//     path: '/aside',
-//     element: <AsideNav></AsideNav>,
-//     children: [
-//         {
-//             path: 'otc-medicine',
-//             element: <OTCmedicine></OTCmedicine>
-//         },
-//         {
-//             path: 'nasal',
-//             element: <Nasal></Nasal>
-//         },
-//         {
-//             path: 'gastric',
-//             element: <Gastric></Gastric>
-//         },
-//         {
-//             path: "zinc-deficiency",
-//             element: <ZincDeficiency></ZincDeficiency>
-//         },
-//         {
-//             path: 'eczema',
-//             element: <Eczema></Eczema>
-//         },
-//         {
-//             path: "Spasm",
-//             element: <Spasm></Spasm>
-//         },
-//         {
-//             path: 'cough-flu',
-//             element: <CoughFlu></CoughFlu>
-//         },
-//         {
-//             path: "diarrhea",
-//             element: <Diarrhea></Diarrhea>
+            ]
+              },
+            //   {
+            //     path: '/aside',
+            //     element: <AsideNav></AsideNav>,
+            //     children: [
+            //         {
+            //             path: 'otc-medicine',
+            //             element: <OTCmedicine></OTCmedicine>
+            //         },
+            //         {
+            //             path: 'nasal',
+            //             element: <Nasal></Nasal>
+            //         },
+            //         {
+            //             path: 'gastric',
+            //             element: <Gastric></Gastric>
+            //         },
+            //         {
+            //             path: "zinc-deficiency",
+            //             element: <ZincDeficiency></ZincDeficiency>
+            //         },
+            //         {
+            //             path: 'eczema',
+            //             element: <Eczema></Eczema>
+            //         },
+            //         {
+            //             path: "Spasm",
+            //             element: <Spasm></Spasm>
+            //         },
+            //         {
+            //             path: 'cough-flu',
+            //             element: <CoughFlu></CoughFlu>
+            //         },
+            //         {
+            //             path: "diarrhea",
+            //             element: <Diarrhea></Diarrhea>
 
-//         },
-//         {
-//             path: "fever",
-//             element: <Fever></Fever>
-//         },
-//         {
-//             path: "ulcer",
-//             element: <Ulcer></Ulcer>
-//         },
-//         {
-//             path: "constipation",
-//             element: <Constipation></Constipation>
-//         },
-//         {
-//             path: "vitamins",
-//             element: <Vitamins></Vitamins>
-//         },
-//         {
-//             path: "dermatitis",
-//             element: <Dermatitis></Dermatitis>
-//         },
-//         {
-//             path: 'oral-fungal-infection',
-//             element: <OralFungalInfection></OralFungalInfection>
-//         },
-//         {
-//             path: 'gynecological',
-//             element: <Gynecological></Gynecological>
-//         }
+            //         },
+            //         {
+            //             path: "fever",
+            //             element: <Fever></Fever>
+            //         },
+            //         {
+            //             path: "ulcer",
+            //             element: <Ulcer></Ulcer>
+            //         },
+            //         {
+            //             path: "constipation",
+            //             element: <Constipation></Constipation>
+            //         },
+            //         {
+            //             path: "vitamins",
+            //             element: <Vitamins></Vitamins>
+            //         },
+            //         {
+            //             path: "dermatitis",
+            //             element: <Dermatitis></Dermatitis>
+            //         },
+            //         {
+            //             path: 'oral-fungal-infection',
+            //             element: <OralFungalInfection></OralFungalInfection>
+            //         },
+            //         {
+            //             path: 'gynecological',
+            //             element: <Gynecological></Gynecological>
+            //         }
 
-//     ]
-//     },
-//     {
-//         path: '/consultant',
-//         element: <Consultation></Consultation>,
-//         children: [
+            //     ]
+            //     }
+            // ,
+            {
+                path: '/consultant',
+                element: <Consultation></Consultation>,
+                children: [
            
-//             {
-//                 path: 'cancer-specialist',
-//                 element: <CancerDoctor></CancerDoctor>
-//             },
-//             {
-//                 path: 'medicine-specialist',
-//                 element: <MedicineSpecialist></MedicineSpecialist>
-//             },
-//             {
-//                 path: 'neurology',
-//                 element: <Neurology></Neurology>
-//             },
-//             {
-//                 path: 'ophthalmologist',
-//                 element: <Ophthalmologist></Ophthalmologist>
-//             }
-        ]
-    }
-  ]);
+                    {
+                        path: 'cancer-specialist',
+                        element: <CancerDoctor></CancerDoctor>
+                    },
+                    {
+                        path: 'medicine-specialist',
+                        element: <MedicineSpecialist></MedicineSpecialist>
+                    },
+                    {
+                        path: 'neurology',
+                        element: <Neurology></Neurology>
+                    },
+                    {
+                        path: 'ophthalmologist',
+                        element: <Ophthalmologist></Ophthalmologist>
+                    }
+                ]
+            }
+        ]);
