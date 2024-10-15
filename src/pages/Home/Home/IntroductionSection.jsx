@@ -60,16 +60,16 @@ const IntroductionSection = () => {
             <div className="mt-5">
                 <TreatmentSection></TreatmentSection>
             </div>
-            <div className="mt-20">
+            <div className="mt-8">
                 <WomansCareSection></WomansCareSection>
             </div>
-            <div className="mt-20">
+            <div className="mt-8">
                 <SkinCareSection></SkinCareSection>
             </div>
-            <div className="mt-20">
+            <div className="mt-8">
                 <MansCareSection></MansCareSection>
             </div>
-            <div className="mt-20">
+            <div className="mt-8">
                 <DevicesEquipment></DevicesEquipment>
             </div>
             

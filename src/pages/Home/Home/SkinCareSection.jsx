@@ -82,14 +82,14 @@ const SkinCareSection = () => {
                 <img src={banner} className='h-60 w-[500px] bg-gradient-to-r from-teal-100 to-teal-400'></img>
                 <div className='h-60 bg-gradient-to-r from-teal-400 to-teal-200 p-4 flex flex-col justify-between'>
                     <div className='space-y-2'>
-                        <h1 className='text-start text-5xl font-bold bg-gradient-to-b from-fuchsia-50 to-fuchsia-200 text-fuchsia-100 bg-clip-text text-transparent'>
+                        <h1 className='text-start text-5xl font-bold bg-gradient-to-r from-fuchsia-50 to-fuchsia-200 text-fuchsia-100 bg-clip-text text-transparent'>
                             Skin care
                         </h1>
                         <p className='text-gray-500'>
                         Explore MedicostCompare extensive range of skincare products designed to nourish and revitalize your skin. From hydrating moisturizers to targeted treatments, achieve a radiant complexion and address your specific skincare needs with our curated selection.
                         </p>
                     </div>
-                    <div className='mt-auto flex justify-end mb-4'>
+                    <div className='mt-auto flex justify-end mr-5'>
                         <button className='border px-3 py-2 rounded bg-gradient-to-b from-fuchsia-50 to-fuchsia-200 text-gray-600 font-semibold'>
                             See more
                         </button>
