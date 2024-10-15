@@ -14,7 +14,7 @@ const AsideNav = () => {
                 
                 <Sidebar></Sidebar>
                 
-                <div className='col-span-10 h-screen overflow-y-auto'>
+                <div className='col-span-10 overflow-y-hidden'>
                     <Carousel></Carousel>
                     
                     <Outlet></Outlet>

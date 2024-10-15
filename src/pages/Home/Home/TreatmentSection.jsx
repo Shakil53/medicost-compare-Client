@@ -1,0 +1,104 @@
+import treatMentCarousel1 from '../../../assets/treatmentInstrument/1.jpg'
+import treatMentCarousel2 from '../../../assets/treatmentInstrument/2.jpg'
+import treatMentCarousel3 from '../../../assets/treatmentInstrument/3.jpg'
+import treatMentCarousel4 from '../../../assets/treatmentInstrument/4.jpg'
+import treatMentCarousel5 from '../../../assets/treatmentInstrument/5.jpg'
+import treatMentCarousel6 from '../../../assets/treatmentInstrument/6.jpg'
+import treatMentCarousel7 from '../../../assets/treatmentInstrument/7.jpg'
+import treatMentCarousel8 from '../../../assets/treatmentInstrument/8.jpg'
+import treatMentCarousel9 from '../../../assets/treatmentInstrument/9.jpg'
+import { Card, CardContent } from "@/components/ui/card";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
+import banner from '../../../assets/sectionImages/Treatments.jpg';
+
+
+const treatmentCarouselImages = [
+    { id: 1, src: treatMentCarousel1, name: 'ACCU-CHEK ACTIVE METER', device: 'Glucose Test Meter', discountPrice: '2899', regularPrice: '3200' },
+    
+    { id: 2, src: treatMentCarousel2, name: 'On Call EZ II Blood Glucose Monitoring System', device: 'Device', discountPrice: '1200', regularPrice: '1300' },
+    
+    { id: 3, src: treatMentCarousel3, name: 'Gluco Check Active Meter', device: 'Device', discountPrice: '1550.0', regularPrice: '1600.0' },
+    
+    { id: 4, src: treatMentCarousel4, name: 'Wister Blood Glucose Monitoring System', device: 'Device', discountPrice: '2150.83', regularPrice: '2550.0' },
+    
+    { id: 5, src: treatMentCarousel5, name: 'Zerocal Sachet 25', device: 'Sachet', discountPrice: '80.75', regularPrice: '85.7' },
+    
+    { id: 6, src: treatMentCarousel6, name: 'OneTouch Ultra Test Strips 25 Pcs Pot', device: 'Strips', discountPrice: '1072.50', regularPrice: '1200.0' },
+    
+    { id: 7, src: treatMentCarousel7, name: 'Mixtard 30 100 IU Vial', device: 'Insulin', discountPrice: '400.89', regularPrice: '432.30' },
+    
+    { id: 8, src: treatMentCarousel8, name: 'Galvus Met 50/500', device: 'Tablet', discountPrice: '316.80', regularPrice: '350.10' },
+    
+    { id: 9, src: treatMentCarousel9 , name: 'OneTouch Verio Flex Meter', device: 'Glucose Test Meter', discountPrice: '3500.0', regularPrice: '3700.0' }
+  ];
+
+
+const TreatmentSection = () => {
+    return (
+        <div className="w-full h-screen">
+            <h1 className='text-center p-3 text-4xl font-bold text-gray-600 mb-5'>Treatments</h1>
+            <div className="flex justify-center items-center h-auto overflow-hidden bg-background mb-5">
+                <Carousel
+                    opts={{
+                        align: "center",
+                        loop: true,
+                    }}
+                    className="w-full max-w-6xl"
+                >
+                    <CarouselContent className="-ml-2 md:-ml-4">
+                        {treatmentCarouselImages.map((image) => (
+                            <CarouselItem key={image.id} className="pl-2 md:pl-1 md:basis-1/4">
+                                <div className="p-1">
+                                    <Card className="shadow-lg">
+                                        <CardContent className="flex aspect-square items-center justify-center p-2">
+                                            <img
+                                                src={image.src}
+                                                alt={`Carousel item ${image.id}`}
+                                                width={400}
+                                                height={400}
+                                                className="rounded-md object-cover"
+                                            />
+                                        </CardContent>
+                                        <div className="p-4">
+                                            <h1 className="truncate text-lg font-semibold">{image.name}</h1>
+                                            <p className="text-gray-500 text-sm">{image.device}</p>
+
+                                            <p>Best Price: <span className="text-green-500">৳{image.discountPrice}</span> 
+                                            <span className="text-red-400 line-through ml-1">৳{image.regularPrice}</span></p>
+                                        </div>
+                                    </Card>
+                                </div>
+                            </CarouselItem>
+                        ))}
+                    </CarouselContent>
+                    <CarouselPrevious />
+                    <CarouselNext />
+                </Carousel>
+            </div>
+            {/* banner---------- */}
+            <div className='flex p-4'>
+                <img src={banner} className='h-60 w-[500px] bg-gradient-to-r from-teal-100 to-teal-400'></img>
+                <div className='h-60 bg-gradient-to-r from-teal-400 to-teal-200 p-4 flex flex-col justify-between'>
+                    <div className='space-y-2'>
+                        <h1 className='text-start text-5xl font-bold bg-gradient-to-b from-fuchsia-50 to-fuchsia-200 text-fuchsia-100 bg-clip-text text-transparent'>
+                            Treatment
+                        </h1>
+                        <p className='text-gray-500'>
+                            Discover a comprehensive selection of diabetic care products at medicontCompare, tailored to support the management and well-being of individuals living with diabetes. From glucose meters to insulin pens, find everything you need to monitor, manage, and maintain a healthy lifestyle.
+                        </p>
+                    </div>
+                    <div className='mt-auto flex justify-end mb-4'>
+                        <button className='border px-3 py-2 rounded bg-gradient-to-b from-fuchsia-50 to-fuchsia-200 text-gray-600 font-semibold'>
+                            See more
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    );
+};
+
+export default TreatmentSection;

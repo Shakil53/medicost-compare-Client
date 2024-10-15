@@ -8,6 +8,7 @@ import Ophthalmologist from "@/pages/Consultant/Ophthalmologist";
 import AsideNav from "@/pages/Home/Aside/AsideNav";
 import Home from "@/pages/Home/Home/Home";
 import IntroductionSection from "@/pages/Home/Home/IntroductionSection";
+import TreatmentSection from "@/pages/Home/Home/TreatmentSection";
 import Constipation from "@/pages/Home/medicineAll/Constipation";
 import CoughFlu from "@/pages/Home/medicineAll/CoughFlu";
 import Dermatitis from "@/pages/Home/medicineAll/Dermatitis";
@@ -26,35 +27,7 @@ import ZincDeficiency from "@/pages/Home/medicineAll/ZincDeficiency";
 import Register from "@/pages/Home/Register/Register";
 import Login from "@/pages/login/Login";
 import { createBrowserRouter } from "react-router-dom";
-// import ComparePrice from "@/Pages/ComparePrice/ComparePrice";
-// import CancerDoctor from "@/Pages/Consultant/CancerDoctor";
-// import Consultation from "@/Pages/Consultant/Consultant";
-// import Consultant from "@/Pages/Consultant/Consultant";
 
-
-// import MedicineSpecialist from "@/Pages/Consultant/MedicineSpecialist";
-// import AsideNav from "@/Pages/Home/Aside/AsideNav";
-// import Home from "@/Pages/Home/Home";
-// import Register from "@/Pages/Home/Register/Register";
-// import Constipation from "@/Pages/Home/medicineAll/Constipation";
-// import CoughFlu from "@/Pages/Home/medicineAll/CoughFlu";
-// import Dermatitis from "@/Pages/Home/medicineAll/Dermatitis";
-// import Diarrhea from "@/Pages/Home/medicineAll/Diarrhea";
-// import Eczema from "@/Pages/Home/medicineAll/Eczema";
-// import Fever from "@/Pages/Home/medicineAll/Fever";
-// import Gastric from "@/Pages/Home/medicineAll/Gastric";
-// import Gynecological from "@/Pages/Home/medicineAll/Gynecological";
-// import Nasal from "@/Pages/Home/medicineAll/Nasal";
-// import OTCmedicine from "@/Pages/Home/medicineAll/OTCmedicine";
-// import OralFungalInfection from "@/Pages/Home/medicineAll/OralFungalInfection";
-// import Spasm from "@/Pages/Home/medicineAll/Spasm";
-// import Ulcer from "@/Pages/Home/medicineAll/Ulcer";
-// import Vitamins from "@/Pages/Home/medicineAll/Vitamins";
-// import ZincDeficiency from "@/Pages/Home/medicineAll/ZincDeficiency";
-// import Login from "@/Pages/login/Login";
-// import {createBrowserRouter} from "react-router-dom";
-// import Neurology from "@/Pages/Consultant/Neurology";
-// import Ophthalmologist from "@/Pages/Consultant/Ophthalmologist";
 
 export const router = createBrowserRouter([
     {
@@ -68,7 +41,8 @@ export const router = createBrowserRouter([
                     {
                         path: '/',
                         element: <IntroductionSection></IntroductionSection>
-                    }
+                    },
+                   
                 ]
             },
             {

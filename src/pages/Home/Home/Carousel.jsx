@@ -24,7 +24,8 @@ const Carousel = () => {
       // install Swiper modules
       modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
       spaceBetween={30}
-      centeredSlides={true}
+            centeredSlides={true}
+            loop={true}
       slidesPerView={1}
       autoplay={{
       delay: 2500,

@@ -3,10 +3,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import video1 from '../../../assets/video/wired-outline-1822-dandelion-hover-pinch (1).mp4'
 import video2 from '../../../assets/video/wired-outline-981-consultation-hover-conversation.mp4'
 import ContainerWithOutSideBar from "@/components/ui/ContainerWithOutSideBar";
+import TreatmentSection from "./TreatmentSection";
+import WomansCareSection from "./WomansCareSection";
+import SkinCareSection from "./SkinCareSection";
+import MansCareSection from "./MansCareSection";
 
 const IntroductionSection = () => {
     return (
-        <>
+        <div className="">
             <div className="bg-gray-100 w-full h-16">
             
             <h1 className="text-center p-3 text-3xl font-extrabold text-gray-600">Your Health, Your Choice Your well-being is our priority.</h1>
@@ -50,8 +54,22 @@ const IntroductionSection = () => {
             </Card>
         </div>
      
-        </ContainerWithOutSideBar>
-        </>
+            </ContainerWithOutSideBar>
+            {/* another sections----------- */}
+            <div className="mt-5">
+                <TreatmentSection></TreatmentSection>
+            </div>
+            <div className="mt-20">
+                <WomansCareSection></WomansCareSection>
+            </div>
+            <div className="mt-20">
+                <SkinCareSection></SkinCareSection>
+            </div>
+            <div className="mt-20">
+                <MansCareSection></MansCareSection>
+            </div>
+            
+        </div>
     );
 };
 
