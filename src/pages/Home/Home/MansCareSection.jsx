@@ -36,7 +36,7 @@ const manCare = [
 
 const MansCareSection = () => {
     return (
-        <div className="w-full h-screen">
+        <div className="w-full ">
         <h1 className='text-center p-3 text-4xl font-bold text-gray-600 mb-5'>Mans Care</h1>
         <div className="flex justify-center items-center h-auto overflow-hidden bg-background mb-5">
             <Carousel

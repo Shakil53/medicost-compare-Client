@@ -1,44 +1,42 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
-import banner from '../../../assets/sectionImages/skinCare/SKINCARE.jpg';
-import product1 from '../../../assets/sectionImages/skinCare/1.jpg';
-import product2 from '../../../assets/sectionImages/skinCare/2.jpg';
-import product3 from '../../../assets/sectionImages/skinCare/3.jpg';
-import product4 from '../../../assets/sectionImages/skinCare/4.jpg';
-import product5 from '../../../assets/sectionImages/skinCare/5.jpg';
-import product6 from '../../../assets/sectionImages/skinCare/6.jpg';
-import product7 from '../../../assets/sectionImages/skinCare/7.jpg';
-import product8 from '../../../assets/sectionImages/skinCare/8.jpg';
-import product9 from '../../../assets/sectionImages/skinCare/9.jpg';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import banner from '../../../assets/sectionImages/deviceEqu/reatments.jpg';
+import treatMentCarousel1 from '../../../assets/sectionImages/deviceEqu/1.jpg'
+import treatMentCarousel2 from '../../../assets/sectionImages/deviceEqu/2.jpg'
+import treatMentCarousel3 from '../../../assets/sectionImages/deviceEqu/3.jpg'
+import treatMentCarousel4 from '../../../assets/sectionImages/deviceEqu/4.jpg'
+import treatMentCarousel5 from '../../../assets/sectionImages/deviceEqu/5.jpg'
+import treatMentCarousel6 from '../../../assets/sectionImages/deviceEqu/6.jpg'
+import treatMentCarousel7 from '../../../assets/sectionImages/deviceEqu/7.jpg'
+import treatMentCarousel8 from '../../../assets/sectionImages/deviceEqu/8.jpg'
+import treatMentCarousel9 from '../../../assets/sectionImages/deviceEqu/9.jpg'
 
 
-
-
-const SkinCare = [
-    { id: 1, src: product1, name: 'Vwash Plus 100 ml', product: 'Intimate Wash', discountPrice: '450.0', regularPrice: '460.0' },
+const deviceEquipmentCarouselImages = [
+    { id: 1, src: treatMentCarousel1, name: 'ACCU-CHEK ACTIVE METER', device: 'Glucose Test Meter', discountPrice: '2899', regularPrice: '3200' },
     
-    { id: 2, src: product2, name: 'New Whisper Maxi Nights (15 Pads)', product: 'Sanitary Napkin', discountPrice: '365.0', regularPrice: '370.5' },
+    { id: 2, src: treatMentCarousel2, name: 'On Call EZ II Blood Glucose Monitoring System', device: 'Device', discountPrice: '1200', regularPrice: '1300' },
     
-    { id: 3, src: product3, name: 'Norix 1', product: 'Tablet', discountPrice: '63', regularPrice: '70' },
+    { id: 3, src: treatMentCarousel3, name: 'Gluco Check Active Meter', device: 'Device', discountPrice: '1550.0', regularPrice: '1600.0' },
     
-    { id: 4, src: product4, name: 'Freedom Heavy Flow Wings 16pads', product: 'Sanitary Napkin', discountPrice: '190.0', regularPrice: '195.0' },
+    { id: 4, src: treatMentCarousel4, name: 'Wister Blood Glucose Monitoring System', device: 'Device', discountPrice: '2150.83', regularPrice: '2550.0' },
     
-    { id: 5, src: product5, name: 'Joya Extra Heavy Flow Wings 8 Pad', product: 'Sanitary Napkin', discountPrice: '104.5', regularPrice: '115.0' },
+    { id: 5, src: treatMentCarousel5, name: 'Zerocal Sachet 25', device: 'Sachet', discountPrice: '80.75', regularPrice: '85.7' },
     
-    { id: 6, src: product6, name: 'Veet Hair Removal 25g', product: 'Cream', discountPrice: '108.5', regularPrice: '115.0' },
+    { id: 6, src: treatMentCarousel6, name: 'OneTouch Ultra Test Strips 25 Pcs Pot', device: 'Strips', discountPrice: '1072.50', regularPrice: '1200.0' },
     
-    { id: 7, src: product7, name: 'Getwell Get Sure Pregnancy Test Cassette', product: 'Pregnancy test strip', discountPrice: '80', regularPrice: '85' },
+    { id: 7, src: treatMentCarousel7, name: 'Mixtard 30 100 IU Vial', device: 'Insulin', discountPrice: '400.89', regularPrice: '432.30' },
     
-    { id: 8, src: product8, name: 'Good news Digital Pregnancy Cassette', product: 'Test device', discountPrice: '62.0', regularPrice: '65.0' },
+    { id: 8, src: treatMentCarousel8, name: 'Galvus Met 50/500', device: 'Tablet', discountPrice: '316.80', regularPrice: '350.10' },
     
-    { id: 9, src: product9 , name: 'Freedom Heavy Flow Wings 16pads', device: 'Sanitary Napkin', discountPrice: '190.0', regularPrice: '195.0' }
+    { id: 9, src: treatMentCarousel9 , name: 'OneTouch Verio Flex Meter', device: 'Glucose Test Meter', discountPrice: '3500.0', regularPrice: '3700.0' }
 ];
   
 
-const SkinCareSection = () => {
+const DevicesEquipment = () => {
     return (
         <div className="w-full ">
-        <h1 className='text-center p-3 text-4xl font-bold text-gray-600 mb-5'>Skin Care</h1>
+        <h1 className='text-center p-3 text-4xl font-bold text-gray-600 mb-5'>Device & Equipment</h1>
         <div className="flex justify-center items-center h-auto overflow-hidden bg-background mb-5">
             <Carousel
                 opts={{
@@ -48,7 +46,7 @@ const SkinCareSection = () => {
                 className="w-full max-w-6xl"
             >
                 <CarouselContent className="-ml-2 md:-ml-4">
-                    {SkinCare.map((image) => (
+                    {deviceEquipmentCarouselImages.map((image) => (
                         <CarouselItem key={image.id} className="pl-2 md:pl-1 md:basis-1/4">
                             <div className="p-1">
                                 <Card className="shadow-lg">
@@ -83,7 +81,7 @@ const SkinCareSection = () => {
                 <div className='h-60 bg-gradient-to-r from-teal-400 to-teal-200 p-4 flex flex-col justify-between'>
                     <div className='space-y-2'>
                         <h1 className='text-start text-5xl font-bold bg-gradient-to-b from-fuchsia-50 to-fuchsia-200 text-fuchsia-100 bg-clip-text text-transparent'>
-                            Skin care
+                        Device & Equipment
                         </h1>
                         <p className='text-gray-500'>
                         Explore MedicostCompare extensive range of skincare products designed to nourish and revitalize your skin. From hydrating moisturizers to targeted treatments, achieve a radiant complexion and address your specific skincare needs with our curated selection.
@@ -103,4 +101,4 @@ const SkinCareSection = () => {
     );
 };
 
-export default SkinCareSection;
+export default DevicesEquipment;

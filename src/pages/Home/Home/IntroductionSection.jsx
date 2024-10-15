@@ -7,6 +7,7 @@ import TreatmentSection from "./TreatmentSection";
 import WomansCareSection from "./WomansCareSection";
 import SkinCareSection from "./SkinCareSection";
 import MansCareSection from "./MansCareSection";
+import DevicesEquipment from "./DevicesEquipment";
 
 const IntroductionSection = () => {
     return (
@@ -67,6 +68,9 @@ const IntroductionSection = () => {
             </div>
             <div className="mt-20">
                 <MansCareSection></MansCareSection>
+            </div>
+            <div className="mt-20">
+                <DevicesEquipment></DevicesEquipment>
             </div>
             
         </div>

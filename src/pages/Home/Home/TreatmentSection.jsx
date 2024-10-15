@@ -8,8 +8,8 @@ import treatMentCarousel7 from '../../../assets/treatmentInstrument/7.jpg'
 import treatMentCarousel8 from '../../../assets/treatmentInstrument/8.jpg'
 import treatMentCarousel9 from '../../../assets/treatmentInstrument/9.jpg'
 import { Card, CardContent } from "@/components/ui/card";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
-import banner from '../../../assets/sectionImages/Treatments.jpg';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import banner from '../../../assets/treatmentInstrument/reatments.jpg';
 
 
 const treatmentCarouselImages = [
@@ -35,7 +35,7 @@ const treatmentCarouselImages = [
 
 const TreatmentSection = () => {
     return (
-        <div className="w-full h-screen">
+        <div className="w-full ">
             <h1 className='text-center p-3 text-4xl font-bold text-gray-600 mb-5'>Treatments</h1>
             <div className="flex justify-center items-center h-auto overflow-hidden bg-background mb-5">
                 <Carousel
