@@ -41,7 +41,7 @@ const WomansCareSection = () => {
         <div className="flex justify-center items-center h-auto overflow-hidden bg-background mb-5">
             <Carousel
                 opts={{
-                    align: "center",
+                    align: "start",
                     loop: true,
                 }}
                 className="w-full max-w-6xl"
