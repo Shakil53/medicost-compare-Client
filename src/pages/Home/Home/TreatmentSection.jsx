@@ -40,55 +40,57 @@ const TreatmentSection = () => {
             <div className="flex justify-center items-center h-auto overflow-hidden bg-background mb-5">
                 <Carousel
                     opts={{
-                        align: "center",
-                        loop: true,
+                    align: "center",
+                    loop: true,
                     }}
                     className="w-full max-w-6xl"
                 >
                     <CarouselContent className="-ml-2 md:-ml-4">
-                        {treatmentCarouselImages.map((image) => (
-                            <CarouselItem key={image.id} className="pl-2 md:pl-1 md:basis-1/4">
-                                <div className="p-1">
-                                    <Card className="shadow-lg">
-                                        <CardContent className="flex aspect-square items-center justify-center p-2">
-                                            <img
-                                                src={image.src}
-                                                alt={`Carousel item ${image.id}`}
-                                                width={400}
-                                                height={400}
-                                                className="rounded-md object-cover"
-                                            />
-                                        </CardContent>
-                                        <div className="p-4">
-                                            <h1 className="truncate text-lg font-semibold">{image.name}</h1>
-                                            <p className="text-gray-500 text-sm">{image.device}</p>
-
-                                            <p>Best Price: <span className="text-green-500">৳{image.discountPrice}</span> 
-                                            <span className="text-red-400 line-through ml-1">৳{image.regularPrice}</span></p>
-                                        </div>
-                                    </Card>
-                                </div>
-                            </CarouselItem>
-                        ))}
+                    {treatmentCarouselImages.map((image) => (
+                        <CarouselItem key={image.id} className="pl-2 md:pl-2 basis-1/2 md:basis-1/4">
+                        <div className="p-1">
+                            <Card className="shadow-lg">
+                            <CardContent className="flex aspect-square items-center justify-center p-2">
+                                <img
+                                src={image.src}
+                                alt={`Carousel item ${image.id}`}
+                                width={400}
+                                height={400}
+                                className="rounded-md object-cover w-full h-auto"
+                                />
+                            </CardContent>
+                            <div className="p-4 text-center md:text-left">
+                                <h1 className="truncate text-lg font-semibold">{image.name}</h1>
+                                <p className="text-gray-500 text-sm">{image.device}</p>
+                                <p>
+                                Best Price: <span className="text-green-500">৳{image.discountPrice}</span> 
+                                <span className="text-red-400 line-through ml-1">৳{image.regularPrice}</span>
+                                </p>
+                            </div>
+                            </Card>
+                        </div>
+                        </CarouselItem>
+                    ))}
                     </CarouselContent>
                     <CarouselPrevious />
                     <CarouselNext />
                 </Carousel>
-            </div>
+                </div>
+
             {/* banner---------- */}
-            <div className='flex p-4'>
-                <img src={banner} className='h-60 w-[500px] bg-gradient-to-r from-teal-100 to-teal-400'></img>
-                <div className='h-60 bg-gradient-to-r from-teal-400 to-teal-200 p-4 flex flex-col justify-between'>
-                    <div className='space-y-2'>
-                        <h1 className='text-start text-5xl font-bold bg-gradient-to-r from-fuchsia-50 to-fuchsia-200 text-fuchsia-100 bg-clip-text text-transparent'>
+            <div className='flex p-1 sm:p-4'>
+                <img src={banner} className='h-24 sm:h-60 w-[120px] sm:w-[500px] bg-gradient-to-r from-teal-100 to-teal-400'></img>
+                <div className='h-24 sm:h-60  bg-gradient-to-r from-teal-400 to-teal-200 p-0 sm:p-4 flex flex-col justify-between'>
+                    <div className='space-y-0 sm:space-y-2'>
+                        <h1 className='text-start text-md sm:text-5xl font-bold bg-gradient-to-tr from-fuchsia-50 to-fuchsia-200 text-fuchsia-100 bg-clip-text text-transparent'>
                             Treatment
                         </h1>
-                        <p className='text-gray-500'>
-                            Discover a comprehensive selection of diabetic care products at medicontCompare, tailored to support the management and well-being of individuals living with diabetes. From glucose meters to insulin pens, find everything you need to monitor, manage, and maintain a healthy lifestyle.
+                        <p className='text-gray-500 font-semibold text-xs sm:text-base'>
+                            Discover a comprehensive selection of diabetic care products at medicontCompare, <span className='hidden sm:block'>tailored to support the management and well-being of individuals living with diabetes. From glucose meters to insulin pens, find everything you need to monitor, manage, and maintain a healthy lifestyle.</span>
                         </p>
                     </div>
-                    <div className='mt-auto flex justify-end mr-5'>
-                        <button className='border px-3 py-2 rounded bg-gradient-to-b from-fuchsia-50 to-fuchsia-200 text-gray-600 font-semibold'>
+                    <div className='mt-auto flex justify-end mr-1 sm:mr-5'>
+                        <button className='border px-1.5 sm:px-3 py-0.5 sm:py-2 rounded bg-gradient-to-b from-fuchsia-50 to-fuchsia-200 text-gray-600 font-bold sm:font-semibold text-xs sm:text-base'>
                             See more
                         </button>
                     </div>

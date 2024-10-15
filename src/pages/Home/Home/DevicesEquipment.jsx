@@ -47,7 +47,7 @@ const DevicesEquipment = () => {
             >
                 <CarouselContent className="-ml-2 md:-ml-4">
                     {deviceEquipmentCarouselImages.map((image) => (
-                        <CarouselItem key={image.id} className="pl-2 md:pl-1 md:basis-1/4">
+                        <CarouselItem key={image.id} className="pl-2 md:pl-2 basis-1/2 md:basis-1/4">
                             <div className="p-1">
                                 <Card className="shadow-lg">
                                     <CardContent className="flex aspect-square items-center justify-center p-2">
@@ -76,19 +76,19 @@ const DevicesEquipment = () => {
             </Carousel>
         </div>
         {/* banner---------- */}
-        <div className='flex p-4'>
-                <img src={banner} className='h-60 w-[500px] bg-gradient-to-r from-teal-100 to-teal-400'></img>
-                <div className='h-60 bg-gradient-to-r from-teal-400 to-teal-200 p-4 flex flex-col justify-between'>
-                    <div className='space-y-2'>
-                        <h1 className='text-start text-5xl font-bold bg-gradient-to-r from-fuchsia-50 to-fuchsia-200 text-fuchsia-100 bg-clip-text text-transparent'>
+        <div className='flex p-1 sm:p-4'>
+                <img src={banner} className='h-24 sm:h-60 w-[120px] sm:w-[500px] bg-gradient-to-r from-teal-100 to-teal-400'></img>
+                <div className='h-24 sm:h-60  bg-gradient-to-r from-teal-400 to-teal-200 p-0 sm:p-4 flex flex-col justify-between'>
+                    <div className='space-y-0 sm:space-y-2'>
+                        <h1 className='text-start text-md sm:text-5xl font-bold bg-gradient-to-tr from-fuchsia-50 to-fuchsia-200 text-fuchsia-100 bg-clip-text text-transparent'>
                         Device & Equipment
                         </h1>
-                        <p className='text-gray-500'>
-                        Explore MedicostCompare extensive range of skincare products designed to nourish and revitalize your skin. From hydrating moisturizers to targeted treatments, achieve a radiant complexion and address your specific skincare needs with our curated selection.
+                        <p className='text-gray-500 font-semibold text-xs sm:text-base'>
+                        Explore MedicostCompare extensive range of skincare products designed to your skin.<span className="hidden sm:block">From hydrating moisturizers to targeted treatments, achieve a radiant complexion and address your specific skincare needs with our curated selection.</span>
                         </p>
                     </div>
-                    <div className='mt-auto flex justify-end mr-5'>
-                        <button className='border px-3 py-2 rounded bg-gradient-to-b from-fuchsia-50 to-fuchsia-200 text-gray-600 font-semibold'>
+                    <div className='mt-auto flex justify-end mr-1 sm:mr-5'>
+                        <button className='border px-1.5 sm:px-3 py-0.5 sm:py-2 rounded bg-gradient-to-b from-fuchsia-50 to-fuchsia-200 text-gray-600 font-bold sm:font-semibold text-xs sm:text-base'>
                             See more
                         </button>
                     </div>
