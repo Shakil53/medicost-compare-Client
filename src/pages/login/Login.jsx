@@ -1,6 +1,6 @@
 import Container from "@/LayOut/Container";
 import img from '../../assets/consultation/layout.jpg';
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import googleImg from "../../assets/google.png";
 import { Button } from "@/components/ui/button"; 
 import { Input } from "@/components/ui/input";
@@ -17,8 +17,10 @@ const Login = () => {
   const { SignInEmailAndPassword } = useContext(AuthContext);
 
   const navigate = useNavigate();
-  const from = location?.state?.from?.pathname || '/';
+  const location = useLocation();
 
+  const from = location?.state?.from?.pathname || '/';
+  console.log('login page',location.state);
   const provider = new GoogleAuthProvider();
 
   const handleSignIN = (e) => {
@@ -41,6 +43,7 @@ const Login = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
         const user = result.user;
+        console.log(user);
         navigate(from, { replace: true });
       })
       .catch((error) => console.error(error));

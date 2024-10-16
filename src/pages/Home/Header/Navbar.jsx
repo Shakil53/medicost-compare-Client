@@ -11,6 +11,7 @@ import { Input } from '@/components/ui/input';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { Avatar } from '@/components/ui/avatar';
 import { ShoppingCart } from 'lucide-react';
+import useProduct from '@/hooks/useProduct';
 
 
 
@@ -19,6 +20,7 @@ const auth = getAuth(app)
 const Navbar = () => {
     const {user} = useContext(AuthContext)
     const [isOpen, setIsOpen] = useState(false);
+    const [cart] = useProduct();
    
     const toggleNavbar = () => {
       setIsOpen(!isOpen);
@@ -79,7 +81,7 @@ const handleSignOut = () => {
                     <Button variant="text" className="ml-0 sm:ml-36 relative inline-flex items-center px-3 py-2 rounded-md text-md font-semibold text-black">
                         <ShoppingCart></ShoppingCart>
                         <span className="ml-2 inline-flex items-center justify-center px-2 py-1 text-xs font-semibold leading-none text-white bg-teal-600 rounded-full" style={{ textDecoration: 'none' }}>
-                            +99
+                            +{cart.length}
                         </span>
                     </Button>
                 </NavLink>

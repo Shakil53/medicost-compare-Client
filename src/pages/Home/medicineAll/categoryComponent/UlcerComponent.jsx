@@ -2,15 +2,76 @@
 import {Card, CardContent,CardFooter,CardHeader,CardTitle} from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button";
+import Swal from "sweetalert2";
+import { toast } from "sonner";
+import { useLocation, useNavigate } from "react-router-dom";
+import useAxiosForCurd from "@/hooks/useAxiosForCurd";
+import useProduct from "@/hooks/useProduct";
+import useAuth from "@/hooks/useAuth";
 
 
 const UlcerComponent = ({ item }) => {
-    const { name, quantity, generic, company, price, img } = item;
+    const { name, quantity, generic, company, price, _id, img, category, form, mrp, offer } = item;
     const showCard = item.category === 'Ulcer';
 
-    const handleAddToCart = (product) => {
-       console.log('clicked', product);
-   }
+    const navigate = useNavigate();
+    const location = useLocation();
+    const axiosForCrud = useAxiosForCurd();
+    const [, refetch] = useProduct();
+
+    const { user } = useAuth();
+
+    // console.log(user.email);
+
+    const handleAddToCart = () => {
+        if (user && user.email) {
+            // send cart item to the database
+            
+
+            const productItem = {
+                cartId: _id,
+                email: user.email,
+                name,
+                quantity,
+                generic,
+                company,
+                price,
+                img,
+                category,
+                form,
+                mrp,
+                offer,
+                
+
+            }
+            axiosForCrud.post('/carts', productItem).then(res => {
+                console.log(res.data);
+                if (res.data.insertedId) {
+                    toast.success("item added successfully")
+                }
+                // refetch the cart to updated item
+                refetch()
+            })
+
+        }
+        else {
+           
+            Swal.fire({
+                title: "YOUR ARE NOT LOGGED IN",
+                text: 'Please login to add to the cart',
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "OK"
+              }).then((result) => {
+                if (result.isConfirmed) {
+                    //  send the user to the loging page
+                    navigate('/login', {state: {from: location}})
+                }
+              });
+        }
+    }
     return (
         <>
         {

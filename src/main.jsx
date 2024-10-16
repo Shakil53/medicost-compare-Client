@@ -7,6 +7,8 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 import { router } from './routes/Router';
 import AuthProvider from './context/AuthProvider/AuthProvider';
+import { Toaster } from 'sonner';
+
 
 
 // tanstackQuery
@@ -18,7 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     
     <QueryClientProvider client={queryClient}>
     <AuthProvider>
-        
+    <Toaster richColors />
         <RouterProvider router={router} />
       
     </AuthProvider>

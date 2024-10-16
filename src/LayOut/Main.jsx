@@ -2,6 +2,7 @@
 import Footer from '@/Pages/Home/Footer/Footer';
 import { Outlet, useLocation } from 'react-router-dom';
 
+
 const Main = () => {
 
   const location = useLocation()
@@ -9,7 +10,8 @@ const Main = () => {
   const noFooterForRegister = location.pathname.includes('register');
 
     return (
-        <div>
+      <div>
+          
         <Outlet></Outlet>
         {noFooterForLogin || noFooterForRegister ? null : <Footer />}
         </div>
