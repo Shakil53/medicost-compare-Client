@@ -2,14 +2,18 @@
 /* eslint-disable react/prop-types */
 import {Card, CardContent,CardFooter,CardHeader,CardTitle} from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 
 
 const GynecologicalComponent = ({item}) => {
     const { name, quantity, generic, company, offer, mrp, price, form, category, img } = item;
     const showCard = item.category === 'Gynecological';
 
-   
+    //add to cart
+    const handleAddToCart = (product) => {
+        console.log('clicked', product);
+    }
+
     return (
      
         <>
@@ -37,7 +41,9 @@ const GynecologicalComponent = ({item}) => {
                         <CardFooter className="flex justify-between">
                         
                             <p><span className='text-[20px] font-bold'>৳</span><span className='font-bold text-[20px]'>{price}</span></p>   
-                            <Badge className="text-xs bg-green-500" variant="destructive"><button>Add To Cart</button></Badge>
+                                <Button
+                                      onClick={()=> handleAddToCart(item)}
+                                    className="text-xs px-3 py-3 bg-green-500 text-white hover:bg-green-600" variant="secondary">Add To Cart</Button>
                         </CardFooter>
             </Card>
                 </>

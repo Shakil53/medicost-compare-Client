@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import { Input } from '@/components/ui/input';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { Avatar } from '@/components/ui/avatar';
+import { ShoppingCart } from 'lucide-react';
 
 
 
@@ -64,15 +65,23 @@ const handleSignOut = () => {
 
         {/* Nav Items with Hamburger Menu for Mobile */}
         <div className="flex-1 flex justify-center mx-auto">
-            <div className="hidden md:flex items-baseline space-x-4">
+            <div className="hidden md:flex items-baseline space-x-4 ml-0 sm:ml-[520px]">
                 <NavLink to="/">
-                    <Button variant='link' className="text-slate-700 px-3 py-2 rounded-md text-md font-semibold">Home</Button>
+                    <Button variant='link' className=" text-slate-700 px-3 py-2 rounded-md text-md font-semibold">Home</Button>
                 </NavLink>
                 <NavLink to="/compare-price">
                     <Button variant='link' className='px-3 py-2 rounded-md text-md font-semibold'>Compare</Button>
                 </NavLink>
                 <NavLink to="/consultant">
                     <Button variant='link' className='px-3 py-2 rounded-md text-md font-semibold'>Consultant</Button>
+                </NavLink>
+                <NavLink to="/">
+                    <Button variant="text" className="ml-0 sm:ml-36 relative inline-flex items-center px-3 py-2 rounded-md text-md font-semibold text-black">
+                        <ShoppingCart></ShoppingCart>
+                        <span className="ml-2 inline-flex items-center justify-center px-2 py-1 text-xs font-semibold leading-none text-white bg-teal-600 rounded-full" style={{ textDecoration: 'none' }}>
+                            +99
+                        </span>
+                    </Button>
                 </NavLink>
             </div>
         </div>
@@ -94,6 +103,16 @@ const handleSignOut = () => {
             <li>
                 <NavLink to="/consultant">
                     <Button variant='link' className='px-3 py-2 rounded-md text-md font-semibold'>Consultant</Button>
+                </NavLink>
+            </li>
+            <li>
+            <NavLink to="/">
+                    <Button variant="text" className="ml-0 sm:ml-36 relative inline-flex items-center px-3 py-2 rounded-md text-md font-semibold text-black">
+                        <ShoppingCart></ShoppingCart>
+                        <span className="ml-2 inline-flex items-center justify-center px-2 py-1 text-xs font-semibold leading-none text-white bg-teal-600 rounded-full" style={{ textDecoration: 'none' }}>
+                            +99
+                        </span>
+                    </Button>
                 </NavLink>
             </li>
         </ul>

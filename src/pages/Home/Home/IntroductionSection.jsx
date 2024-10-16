@@ -19,7 +19,7 @@ const IntroductionSection = () => {
         </div>
       
     <ContainerWithOutSideBar>
-    <div className="grid grid-cols-1 sm:grid-cols-12 items-center p-2 w-full mx-auto gap-10">
+    <div className="grid grid-cols-1 sm:grid-cols-12 items-center p-2 w-full mx-auto gap-4 sm:gap-10">
         {/* First Card */}
         <Card className="sm:col-span-4 w-full sm:w-[400px] flex flex-col sm:flex-row overflow-hidden">
             <div className="flex flex-col justify-between p-4">
@@ -29,7 +29,7 @@ const IntroductionSection = () => {
 
                 </p>
                 <div className="mt-auto">
-                <Button className='self-start bg-teal-500 hover:bg-teal-500'>
+                <Button className='px-1.5 sm:px-3 py-0.5 sm:py-1 text-xs sm:text-sm self-start bg-teal-500 hover:bg-teal-500'>
                     Explore now
                 </Button>
                 </div>
@@ -51,7 +51,7 @@ const IntroductionSection = () => {
                 Empowering Health, Enlightening Choice - Your Prescription for Informed Savings
                 </p>
                 <div className="mt-auto">
-                <Button className='self-start bg-teal-500 hover:bg-teal-500'>
+                <Button className='px-1.5 sm:px-3 py-0.5 sm:py-1 text-xs sm:text-sm self-start bg-teal-500 hover:bg-teal-500'>
                     Appointment
                 </Button>
                 </div>
@@ -71,7 +71,7 @@ const IntroductionSection = () => {
                 Our mission is to empower consumers with the knowledge to their medication purchases.
                 </p>
                 <div className="mt-auto">
-                <Button className='self-start bg-teal-500 hover:bg-teal-500'>
+                <Button className='px-1.5 sm:px-3 py-0.5 sm:py-1 text-xs sm:text-sm self-start bg-teal-500 hover:bg-teal-500'>
                     Lear more
                 </Button>
                 </div>
