@@ -49,7 +49,7 @@ const TreatmentSection = () => {
                     {treatmentCarouselImages.map((image) => (
                         <CarouselItem key={image.id} className="pl-2 md:pl-2 basis-1/2 md:basis-1/4">
                         <div className="p-1">
-                            <Card className="shadow-lg">
+                            <Card className="shadow-lg ml-1">
                             <CardContent className="flex aspect-square items-center justify-center p-2">
                                 <img
                                 src={image.src}

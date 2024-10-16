@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import video1 from '../../../assets/video/wired-outline-1822-dandelion-hover-pinch (1).mp4'
+import video3 from '../../../assets/video/online.mp4';
 import video2 from '../../../assets/video/wired-outline-981-consultation-hover-conversation.mp4'
 import ContainerWithOutSideBar from "@/components/ui/ContainerWithOutSideBar";
 import TreatmentSection from "./TreatmentSection";
@@ -24,11 +25,12 @@ const IntroductionSection = () => {
             <div className="flex flex-col justify-between p-4">
             <CardContent className="flex flex-col justify-between h-full p-0 pt-2 max-w-56">
                 <p className="text-sm text-muted-foreground mb-2">
-                Empowering Health, Enlightening Choice - Your Prescription for Informed Savings
+                The ability to find the best medicine at the lowest prices without being influenced by company or marketing tactics.
+
                 </p>
                 <div className="mt-auto">
                 <Button className='self-start bg-teal-500 hover:bg-teal-500'>
-                    Appointment
+                    Explore now
                 </Button>
                 </div>
             </CardContent>
@@ -66,18 +68,18 @@ const IntroductionSection = () => {
             <div className="flex flex-col justify-between p-4">
             <CardContent className="flex flex-col justify-between h-full p-0 pt-2 max-w-56">
                 <p className="text-sm text-muted-foreground mb-2">
-                Empowering Health, Enlightening Choice - Your Prescription for Informed Savings
+                Our mission is to empower consumers with the knowledge to their medication purchases.
                 </p>
                 <div className="mt-auto">
                 <Button className='self-start bg-teal-500 hover:bg-teal-500'>
-                    Appointment
+                    Lear more
                 </Button>
                 </div>
             </CardContent>
             </div>
             <div className="w-full sm:w-[200px] relative bg-black hidden sm:block">
             <video className="w-full h-full object-cover" autoPlay loop muted playsInline>
-                <source src={video2} />
+                <source src={video3} />
                 Your browser does not support the video tag.
             </video>
             </div>
