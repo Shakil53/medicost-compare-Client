@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo/logo1.svg';
 
 const Footer = () => {
@@ -5,7 +6,7 @@ const Footer = () => {
     <div className="bg-gradient-to-tr from-teal-100 to-teal-400 text-gray-800 p-8 md:p-10">
     <div className="flex flex-col sm:flex-col-[2] md:flex-row justify-around space-y-4 md:space-y-0">
       <aside className="text-center md:text-left">
-        <img className="w-12 mx-auto md:ml-4" src={logo} alt="medicostcompare" />
+        <Link to='/'><img className="w-12 mx-auto md:ml-4" src={logo} alt="medicostcompare" /></Link>
         <p className="mt-2">
           Medicost Compare
           <br />

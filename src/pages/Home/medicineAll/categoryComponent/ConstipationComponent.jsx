@@ -8,6 +8,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import useAxiosForCurd from "@/hooks/useAxiosForCurd";
 import useProduct from "@/hooks/useProduct";
+import '../../../../styles/cartButton.css';
 
 
 
@@ -47,6 +48,7 @@ const ConstipationComponent = ({item}) => {
                 
 
             }
+            console.log(productItem);
             axiosForCrud.post('/carts', productItem).then(res => {
                 console.log(res.data);
                 if (res.data.insertedId) {
@@ -75,7 +77,10 @@ const ConstipationComponent = ({item}) => {
               });
         }
     }
-   
+    //    from here compare ------------------
+    const handleComapeClick = () => {
+        navigate('/compare-price', { state: { selectedItem: item } });
+    }
     return (
      
         <>
@@ -100,12 +105,20 @@ const ConstipationComponent = ({item}) => {
                         <p>{company}</p>
                         
                     </CardContent>
-                            <CardFooter className="flex justify-between">
+                            <CardFooter className="flex justify-between pr-1 pl-4">
                             
                                 <p><span className='text-[20px] font-bold'>৳</span><span className='font-bold text-[20px]'>{price}</span></p>   
+                                <div className="flex gap-2">
+                                    <button
+                                        onClick={handleComapeClick}
+                                        className="button px-2 py-1 text-xs">Compare</button>
                                 <Button
                                     onClick={handleAddToCart}
-                                    className="text-xs px-3 py-3 bg-green-500 text-white hover:bg-green-600" variant="secondary">Add To Cart</Button>
+                                    className="text-xs px-2 py-1 bg-green-500 text-white hover:bg-green-600" variant="secondary">
+                                    Add To Cart
+                                </Button>
+                                </div>
+
                             </CardFooter>
                 </Card>
                     </>

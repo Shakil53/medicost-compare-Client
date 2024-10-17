@@ -75,7 +75,10 @@ const DiarrheaComponent = ({ item }) => {
         }
     }
     
-    
+    //    from here compare ------------------
+    const handleComapeClick = () => {
+        navigate('/compare-price', { state: { selectedItem: item } });
+    }
     
     
     return (
@@ -84,31 +87,39 @@ const DiarrheaComponent = ({ item }) => {
             showCard && (
                 < >
                     <Card className="max-w-64 mb-0 mx-auto bg-white shadow-lg rounded-lg transition-colors duration-300 hover:bg-gray-50 hover:text-blue-500/95">
-                    <CardHeader>
-                        <Avatar className="size-56 mx-auto rounded-none">
-                            <AvatarImage className="" src={img} /> 
-                            <AvatarFallback><span className="loading loading-infinity loading-lg"></span></AvatarFallback>
-                        </Avatar>
-                    <CardTitle>
-                    <div className="space-y-3">
-                    <div className="flex gap-2 ">{name} <p className="text-[#34a97b] text-sm font-normal">{quantity}</p></div>
+                        <CardHeader>
+                            <Avatar className="size-56 mx-auto rounded-none">
+                                <AvatarImage className="" src={img} /> 
+                                <AvatarFallback><span className="loading loading-infinity loading-lg"></span></AvatarFallback>
+                            </Avatar>
+                        <CardTitle>
+                        <div className="space-y-2">
+                        <div className="flex gap-2 ">{name} <p className="text-[#34a97b] text-sm font-normal">{quantity}</p></div>
+                            
+                        </div>
+                        </CardTitle>
+                     </CardHeader>
+                     <CardContent className="h-[85px]">
+                        <p className="text-[#4fff7b]">{generic}</p>
+                        <p>{company}</p>
                         
-                    </div>
-                    </CardTitle>
-                 </CardHeader>
-                 <CardContent className="h-[85px]">
-                    <p className="text-[#4fff7b]">{generic}</p>
-                    <p>{company}</p>
-                    
-                </CardContent>
-                        <CardFooter className="flex justify-between">
-                        
-                            <p><span className='text-[20px] font-bold'>৳</span><span className='font-bold text-[20px]'>{price}</span></p>   
+                    </CardContent>
+                            <CardFooter className="flex justify-between pr-1 pl-4">
+                            
+                                <p><span className='text-[20px] font-bold'>৳</span><span className='font-bold text-[20px]'>{price}</span></p>   
+                                <div className="flex gap-2">
+                                    <button
+                                        onClick={handleComapeClick}
+                                        className="button px-2 py-1 text-xs">Compare</button>
                                 <Button
                                     onClick={handleAddToCart}
-                                    className="text-xs px-3 py-3 bg-green-500 text-white hover:bg-green-600" variant="secondary">Add To Cart</Button>
-                        </CardFooter>
-            </Card>
+                                    className="text-xs px-2 py-1 bg-green-500 text-white hover:bg-green-600" variant="secondary">
+                                    Add To Cart
+                                </Button>
+                                </div>
+
+                            </CardFooter>
+                </Card>
                 </>
                 )
         }    

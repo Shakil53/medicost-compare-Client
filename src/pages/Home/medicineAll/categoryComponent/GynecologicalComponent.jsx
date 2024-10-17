@@ -74,10 +74,13 @@ const GynecologicalComponent = ({item}) => {
         }
     }
 
-
-    return (
-     
-        <>
+//    from here compare ------------------
+const handleComapeClick = () => {
+    navigate('/compare-price', { state: { selectedItem: item } });
+}
+return (
+ 
+    <>
         {
             showCard && (
                 < >
@@ -88,7 +91,7 @@ const GynecologicalComponent = ({item}) => {
                             <AvatarFallback><span className="loading loading-infinity loading-lg"></span></AvatarFallback>
                         </Avatar>
                     <CardTitle>
-                    <div className="space-y-3">
+                    <div className="space-y-2">
                     <div className="flex gap-2 ">{name} <p className="text-[#34a97b] text-sm font-normal">{quantity}</p></div>
                         
                     </div>
@@ -99,20 +102,28 @@ const GynecologicalComponent = ({item}) => {
                     <p>{company}</p>
                     
                 </CardContent>
-                        <CardFooter className="flex justify-between">
+                        <CardFooter className="flex justify-between pr-1 pl-4">
                         
                             <p><span className='text-[20px] font-bold'>৳</span><span className='font-bold text-[20px]'>{price}</span></p>   
-                                <Button
-                                      onClick={handleAddToCart}
-                                    className="text-xs px-3 py-3 bg-green-500 text-white hover:bg-green-600" variant="secondary">Add To Cart</Button>
+                            <div className="flex gap-2">
+                                <button
+                                    onClick={handleComapeClick}
+                                    className="button px-2 py-1 text-xs">Compare</button>
+                            <Button
+                                onClick={handleAddToCart}
+                                className="text-xs px-2 py-1 bg-green-500 text-white hover:bg-green-600" variant="secondary">
+                                Add To Cart
+                            </Button>
+                            </div>
+
                         </CardFooter>
             </Card>
                 </>
                 )
         }    
-        </>
-               
-    );
+    </>
+           
+);
 };
 
 export default GynecologicalComponent;
