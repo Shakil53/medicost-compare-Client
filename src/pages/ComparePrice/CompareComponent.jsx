@@ -1,13 +1,15 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Button } from "@/components/ui/button";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Swal from "sweetalert2";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import useProduct from "@/hooks/useProduct";
 import useAuth from "@/hooks/useAuth";
 import { toast } from "sonner";
-import { axiosForCrud } from "@/hooks/useAxiosForCurd";
+import useAxiosForCurd from "@/hooks/useAxiosForCurd";
+import CompareByGeneric from "./CompareByGeneric";
+
 
 
 
@@ -17,7 +19,8 @@ const CompareComponent = () => {
     const location = useLocation();
     const { selectedItem } = location.state || {}; //the cart was clicked
     const [similarItems, setSimilarItems] = useState([]);
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
+    const axiosForCrud = useAxiosForCurd();
     
     
     // into compare user can select the item to add to cart
@@ -37,56 +40,48 @@ const CompareComponent = () => {
         }
     }, [selectedItem]);
 
-        if (!selectedItem) {
-            Swal.fire({
-                title: "THERE IN NO PRODUCT AVAILABLE",
-                text: 'Sorry for that',
-                // icon: "warning",
-                showCancelButton: true,
-                confirmButtonColor: "#3085d6",
-                cancelButtonColor: "#d33",
-                confirmButtonText: "OK"
-              }).then(() => {
-                    //  send the user to the loging page
-                    navigate('/', {state: {from: location}})
-               
-              });
-    }
+    if (!selectedItem) {
+           return <CompareByGeneric></CompareByGeneric>
+        }
     //--------------------------------------
-    // into compare user can select the item to add to cart
-    const handleAddToCart = () => {
+    // into compare-  user can select the item to add to cart
+    const handleAddToCart = (item) => {
         if (user && user.email) {
-            // send cart item to the database
             
-            // console.log(productItem);
-            axiosForCrud.post('/carts', selectedItem).then(res => {
+            const productItem = {
+                cartId: "",
+                email: user.email,
+                name: item.name, 
+                quantity: item.quantity || 1, 
+                generic: item.generic,
+                company: item.company,
+                price: item.price,
+                img: item.img,
+                category: item.category,
+                form: item.form,
+                mrp: item.mrp,
+                offer: item.offer,
+            };
+            
+            console.log(productItem);
+            
+            // Post to your cart database
+            axiosForCrud.post('/allProducts', productItem).then(res => {
                 console.log(res.data);
                 if (res.data.insertedId) {
-                    toast.success("item added successfully")
+                    toast.success("Item added successfully");
+                    // Refetch the cart to update the item count
+                    refetch();
+                } else {
+                    toast.error("Failed to add item. Please try again.");
                 }
-                // refetch the cart to updated item
-                refetch()
-            })
-
-        }
-        else {
-           
-            Swal.fire({
-                title: "YOUR ARE NOT LOGGED IN",
-                text: 'Please login to add to the cart',
-                icon: "warning",
-                showCancelButton: true,
-                confirmButtonColor: "#3085d6",
-                cancelButtonColor: "#d33",
-                confirmButtonText: "OK"
-              }).then((result) => {
-                if (result.isConfirmed) {
-                    //  send the user to the loging page
-                    navigate('/login', {state: {from: location}})
-                }
-              });
-        }
-    }
+            }).catch(err => {
+                console.error(err);
+                toast.error("An error occurred while adding the item.");
+            });
+    
+        } 
+    };
 
     return (
         <div className=" px-4">

@@ -1,6 +1,6 @@
 import axios from "axios";
 
- export const axiosForCrud = axios.create({
+ const axiosForCrud = axios.create({
     baseURL: 'http://localhost:5000/'
 
 })
