@@ -8,7 +8,6 @@ import { getAuth, signOut } from 'firebase/auth';
 import app from '@/firebase/firebase.config';
 import { Link } from 'react-router-dom';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
-import { Avatar } from '@/components/ui/avatar';
 import { ShoppingCart } from 'lucide-react';
 import useProduct from '@/hooks/useProduct';
 import SpreadingCircleLoader from '@/components/ui/SpreadingCircleLoader';
@@ -152,12 +151,26 @@ const handleSignOut = () => {
                             <DropdownMenuGroup>
                                 {/* <DropdownMenuItem onClick={() => console.log("Profile clicked")}>Profile</DropdownMenuItem>
                                 <DropdownMenuItem onClick={() => console.log("Settings clicked")}>Settings</DropdownMenuItem> */}
-                                    <DropdownMenuItem >
-                                    {
-                                        user?.email ? <Link to='/' onClick={handleSignOut}>Sign Out</Link> :
-                                        <Link to='/login'>Sign In</Link>                
-                                    }
-                                </DropdownMenuItem>
+                                        <DropdownMenuItem >
+                                        {
+                                             user?.email ? (
+                                                <Link
+                                                  to="/"
+                                                  onClick={handleSignOut}
+                                                  className="block w-full text-left"
+                                                >
+                                                  Sign Out
+                                                </Link>
+                                              ) : (
+                                                <Link
+                                                  to="/login"
+                                                  className="block w-full text-left"
+                                                >
+                                                  Sign In
+                                                </Link>
+                                              )      
+                                        }
+                                    </DropdownMenuItem>
                             </DropdownMenuGroup>
                         </DropdownMenuContent>
                     </DropdownMenu>
