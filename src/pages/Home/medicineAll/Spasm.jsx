@@ -19,7 +19,7 @@ const Spasm = () => {
     }
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 p-16 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 p-8 gap-4">
             {
                 data?.map((item) => <SpasmComponent key={item.id} item={item}></SpasmComponent>)
             }

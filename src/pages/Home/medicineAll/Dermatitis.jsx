@@ -19,7 +19,7 @@ const Dermatitis = () => {
         return <p>Loading..</p>
     }
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 p-16 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 p-8 gap-4">
             {
                 data?.map((item) => <DermatitisComponent key={item.id} item={item}></DermatitisComponent>)
            }

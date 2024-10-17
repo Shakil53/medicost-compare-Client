@@ -85,40 +85,48 @@ return (
         {
             showCard && (
                 < >
-                    <Card className="max-w-64 mb-0 mx-auto bg-white shadow-lg rounded-lg transition-colors duration-300 hover:bg-gray-50 hover:text-blue-500/95">
-                    <CardHeader>
-                        <Avatar className="size-56 mx-auto rounded-none">
-                            <AvatarImage className="" src={img} /> 
-                            <AvatarFallback><span className="loading loading-infinity loading-lg"></span></AvatarFallback>
-                        </Avatar>
-                    <CardTitle>
-                    <div className="space-y-2">
-                    <div className="flex gap-2 ">{name} <p className="text-[#34a97b] text-sm font-normal">{quantity}</p></div>
-                        
-                    </div>
-                    </CardTitle>
-                 </CardHeader>
-                 <CardContent className="h-[85px]">
-                    <p className="text-[#4fff7b]">{generic}</p>
-                    <p>{company}</p>
-                    
-                </CardContent>
-                        <CardFooter className="flex justify-between pr-1 pl-4">
-                        
-                            <p><span className='text-[20px] font-bold'>৳</span><span className='font-bold text-[20px]'>{price}</span></p>   
-                            <div className="flex gap-2">
+                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                        <Card className="mb-0 mx-auto bg-white shadow-lg rounded-lg transition-colors duration-300 hover:bg-gray-50 hover:text-blue-500/95">
+                            <CardHeader>
+                            <Avatar className="size-48 sm:size-56 mx-auto rounded-none">
+                                <AvatarImage src={img} />
+                                <AvatarFallback>
+                                <span className="loading loading-infinity loading-lg"></span>
+                                </AvatarFallback>
+                            </Avatar>
+                            <CardTitle>
+                                <div className="space-y-2">
+                                <div className="flex gap-2">
+                                    {name} <p className="text-[#34a97b] text-sm font-normal">{quantity}</p>
+                                </div>
+                                </div>
+                            </CardTitle>
+                            </CardHeader>
+                            <CardContent className="h-[85px]">
+                            <p className="text-[#4fff7b]">{generic}</p>
+                            <p>{company}</p>
+                            </CardContent>
+                            <CardFooter className="flex sm:flex justify-between pr-3 pl-4">
+                            <p>
+                                <span className="text-[20px] font-bold">৳</span>
+                                <span className="font-bold text-[20px]">{price}</span>
+                            </p>
+                            <div className="grid grid-cols-2 gap-2 sm:flex">
                                 <button
-                                    onClick={handleComapeClick}
-                                    className="button px-2 py-1 text-xs">Compare</button>
-                            <Button
+                                onClick={handleComapeClick}
+                                className="button px-0.5 py-0.5 text-sm">
+                                Compare
+                                </button>
+                                <Button
                                 onClick={handleAddToCart}
-                                className="text-xs px-2 py-1 bg-green-500 text-white hover:bg-green-600" variant="secondary">
+                                className="text-xs px-1.5 py-0.5 bg-green-500 text-white hover:bg-green-600"
+                                variant="secondary">
                                 Add To Cart
-                            </Button>
+                                </Button>
                             </div>
-
-                        </CardFooter>
-            </Card>
+                            </CardFooter>
+                        </Card>
+                    </div>
                 </>
                 )
         }    

@@ -3,8 +3,8 @@ import logo from '../../../assets/logo/logo1.svg';
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-tr from-teal-100 to-teal-400 text-gray-800 p-8 md:p-10">
-    <div className="flex flex-col sm:flex-col-[2] md:flex-row justify-around space-y-4 md:space-y-0">
+    <div className="bg-gradient-to-tr from-teal-100 to-teal-400 text-gray-800 p-4 md:p-10">
+    <div className="flex flex-col sm:flex-col-[2] md:flex-row justify-between space-y-4 md:space-y-0">
       <aside className="text-center md:text-left">
         <Link to='/'><img className="w-12 mx-auto md:ml-4" src={logo} alt="medicostcompare" /></Link>
         <p className="mt-2">
@@ -15,7 +15,7 @@ const Footer = () => {
       </aside>
   
       {/* Add flex-wrap to handle multiple columns and apply flex for desktop */}
-      <div className="flex flex-col md:flex-row flex-wrap gap-4 sm:gap-16 sm:items-center md:items-start">
+      <div className="flex flex-col md:flex-row flex-wrap gap-4 sm:gap-16 sm:items-center md:items-start mr-0 sm:mr-52">
         <nav className="text-center md:text-left">
           <h6 className="font-semibold mb-2">Services</h6>
           <ul>
@@ -43,7 +43,8 @@ const Footer = () => {
             <li><a href="#" className="hover:underline">Privacy policy</a></li>
             <li><a href="#" className="hover:underline">Cookie policy</a></li>
           </ul>
-        </nav>
+          </nav>
+          {/* social media link goes here--------- */}
       </div>
     </div>
   </div>

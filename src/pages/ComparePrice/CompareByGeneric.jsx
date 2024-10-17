@@ -7,6 +7,7 @@ import useAuth from '@/hooks/useAuth';
 import useAxiosForCurd from '@/hooks/useAxiosForCurd';
 import useProduct from '@/hooks/useProduct';
 
+
 const CompareByGeneric = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [products, setProducts] = useState([]);
@@ -25,7 +26,12 @@ const CompareByGeneric = () => {
         try {
             const response = await useAxiosForSearch.get(`/allPNameORGen?search=${encodeURIComponent(searchTerm)}`);
             setProducts(response.data);
-        } catch (error) {
+
+            if (response.data.length === 0) {
+                toast.error('There is no medicine by this name or generic')
+            }
+        } 
+        catch (error) {
             console.error("Error fetching products:", error);
             toast.error("Failed to fetch products.");
         }
@@ -71,15 +77,15 @@ const CompareByGeneric = () => {
     return (
         <div className="px-4 py-6">
             <h1 className="text-center text-2xl font-bold mb-4 text-teal-600">Compare Products by Name or Generic</h1>
-            <div className="flex flex-col sm:flex-row items-center mb-4">
+            <div className="flex justify-center gap-2 sm:flex-row items-center mb-4">
                 <input 
                     type="text" 
-                    className="flex-1 p-2 border border-gray-300 rounded-md mb-2 sm:mb-0 sm:mr-2" 
+                    className="flex-1 p-2 border border-gray-300 text-black font-semibold rounded-md sm:mr-2" 
                     placeholder="Enter product name or generic..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                 />
-                <Button onClick={handleSearch} className="bg-teal-500 text-white hover:bg-teal-600">Search</Button>
+                <Button onClick={handleSearch} className="bg-teal-500 px-4 py-5 text-white hover:bg-teal-600">Search</Button>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {products.length > 0 ? (
@@ -99,9 +105,7 @@ const CompareByGeneric = () => {
                             </CardFooter>
                         </Card>
                     ))
-                ) : (
-                    <p className="text-center text-gray-500">No products found.</p>
-                )}
+                ) : ''}
             </div>
         </div>
     );

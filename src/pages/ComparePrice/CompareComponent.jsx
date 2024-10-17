@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { Button } from "@/components/ui/button";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -9,6 +9,7 @@ import useAuth from "@/hooks/useAuth";
 import { toast } from "sonner";
 import useAxiosForCurd from "@/hooks/useAxiosForCurd";
 import CompareByGeneric from "./CompareByGeneric";
+import Swal from "sweetalert2";
 
 
 
@@ -19,7 +20,7 @@ const CompareComponent = () => {
     const location = useLocation();
     const { selectedItem } = location.state || {}; //the cart was clicked
     const [similarItems, setSimilarItems] = useState([]);
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
     const axiosForCrud = useAxiosForCurd();
     
     
@@ -81,6 +82,23 @@ const CompareComponent = () => {
             });
     
         } 
+        else {
+           
+            Swal.fire({
+                title: "YOUR ARE NOT LOGGED IN",
+                text: 'Please login to add to the cart',
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "OK"
+              }).then((result) => {
+                if (result.isConfirmed) {
+                    //  send the user to the loging page
+                    navigate('/login', {state: {from: location}})
+                }
+              });
+        }
     };
 
     return (
